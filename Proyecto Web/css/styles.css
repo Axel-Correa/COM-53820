@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+/*font-family:"Orbitron", sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wdth,wght@87.5,100..900&family=Orbitron&display=swap');
+/*font-family: "Encode Sans SC", sans-serif;*/
+
+
+.fondo{background-color: black;
+}
+
+header{position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 1px;
+}
+
+header img{
+    width: 95px;
+    height: 80px;
+    margin-right: 5px;
+
+}
+
+ul{
+    list-style:none; 
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav li a { text-decoration: none;
+    color: white;
+    font-family: "Encode Sans SC", sans-serif;
+    font-size: 20px;
+    margin-left: 90px;
+}
+
+.nav{ display: flex; 
+    width:100%;
+    height: 300px;
+}
+
+
+.contacto-nav{ 
+    color: white;
+    font-family: "Encode Sans SC", sans-serif;
+    font-size: 8px;
+    text-align: right;
+    margin-left: 80px;
+    
+}
+.contacto-nav div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.contacto-nav div img{
+    width: 20px;
+    height: 20px;
+    margin-right: 6px;
+}
+
+.contacto-nav h3{
+    display: inline-block;
+}
+
+.Ccristales{
+    color: rgba(255, 255, 255, 0.5);
+    font-family:"Orbitron", sans-serif;
+    font-size: 80px;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+}
+
+/*fondo principal index*/
+.Ccristales h1{background-image: url("../assest/imagenes/Bmw-inico.png");
+    background-size: cover;
+    height: 1000px;
+    width: 100%;
+    background-repeat: no-repeat;
+    justify-content: center;
+    text-align: center;
+    padding-top: 35%;
+}
+/*segundo fondo del index*/
+.fondo2-index {background-image: url("../assest/imagenes/Bmw-2inicio.png");
+    background-size: cover;
+    height: 1000px;
+    width: 100%;
+    background-repeat: no-repeat;
+    padding-top: 35%;
+}
+
+/*fONDO principal SERVICIOS*/
+.fondo-ini-servicio{
+    background-image: url("../assest/imagenes/servicios/bmw-inicio.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.titulo{
+    color:white;
+    font-family:"Orbitron", sans-serif;
+    font-size: 80px;
+    text-align: left;
+    margin-top: 5%;
+}
+
+/*TiTulos a la derecha*/
+.titulo-right{color:white;
+    font-family:"Orbitron", sans-serif;
+    font-size: 80px;
+    text-align: right;
+}
+
+
+.mainColoc h1{
+    color:white;
+    font-family:"Orbitron", sans-serif;
+    font-size: 80px;
+    text-align:left;
+    padding-top: 20px;
+}
+
+.sub-right{color: white;
+    font-family:"Orbitron", sans-serif;
+    text-align: right;
+}
+
+.sub-h2-right{ color: white;
+    font-family:"Orbitron", sans-serif;
+    text-align:right;
+    font-size: 60px;
+    
+}
+
+.sub-h2-raight h3{
+    font-size: 32px;
+}
+.sub-left{
+    color:white;
+    font-family:"Orbitron", sans-serif;
+    text-align:left;
+    font-size: 24px;
+}
+
+.sub-h2{color:white;
+    font-family:"Orbitron", sans-serif;
+    text-align:left;
+    font-size: 60px;
+}
+
+.mini-servicios{ color: white;
+    font-family:"Orbitron", sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.mini-servicios h3{
+    display: flex;
+    justify-content: center;
+    font-size: 38px;
+}
+
+.autopartes{color:white;
+    font-family:"Orbitron", sans-serif;
+}
+
+.boton-compra{color: white;
+    font-family:"Orbitron", sans-serif;
+    background-color: #481752;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 56px;
+}
+
+.boton-info{color: white;
+    font-family:"Orbitron", sans-serif;
+    background-color: #481752;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 56px;
+}
+
+.catalogo{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+
+
+
+
+.productos{color: white;
+    font-family: "Encode Sans SC", sans-serif;
+    text-align: left;
+}
+.prud{color: white;
+    font-family: "Encode Sans SC", sans-serif;
+    font-size: 32px;
+    text-align: center
+}
+.autopartes{color: white;
+    font-family: "Orbitron", sans-serif;
+    font-size: 60px;
+}
+
+.autopartes img{
+    width: 450px;
+}
+
+.calcula-envio{color: white;
+    background-color:#5f5a5a;
+}
+.calcula-envio h2{
+    font-size: 32px
+}
+.calcula-envio p{
+    font-size: 24px;
+}
+.galery-right img{ background-position:right;
+    background-repeat: no-repeat;
+}
+
+.mainColoc{
+    width: 100%;
+    height: 1000px;
+}
+footer{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: 60px;
+    background-color: white; 
+}
