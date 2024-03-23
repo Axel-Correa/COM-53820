@@ -151,7 +151,18 @@ a{
     font-size: 24px;
     margin-top: 0px;
 }
-
+.grabados{
+    display: flex;
+    flex-direction: column;
+    color:white;
+    font-family:"Orbitron", sans-serif;
+    text-align:left;
+    font-size: 24px;
+    margin-top: 300px;
+}
+.grabados h3{
+    margin-top: 0px;
+}
 .sub-left h1{
     margin-top: 20px;
 }
