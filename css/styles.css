@@ -85,6 +85,77 @@ a{
     text-align: center;
     padding-top: 35%;
 }
+
+.mini-servicios{ color: white;
+    font-family:"Orbitron", sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    line-height: 10px;
+    font-size: 16px;
+}
+.mini-servicios h3{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+
+/*linea divisora index*/
+.linea-violeta-index{
+    color: #481752;
+    background-color: #481752;
+    width: 50%;
+    height: 5px;
+    border-radius: 5px;
+    margin-left: 20%;
+    margin-top: 100px;
+}
+.autopartes{
+    padding-top: 300px;
+}
+
+.catalogo{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+}
+.productos{display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: "Encode Sans SC", sans-serif;
+    text-align: center;
+}
+.productos img{
+    width:294px ;
+    height: 396px;
+}
+
+.calcula-envio{color: white;
+    background-color:#5f5a5a;
+    margin-top: 100px;
+}
+.calcula-envio h2{
+    font-size: 32px
+}
+.calcula-envio p{
+    font-size: 24px;
+}
+
+.ubicacion-index{background-color: #5C5A55;
+    display: flex;
+    flex-direction: column;
+}
+.ubicacion-index h3{
+    text-align: center;
+}
+.ubicacion-index h4{
+    font-size: 50px;
+    color: white;
+    font-family:"Orbitron", sans-serif;
+    text-align: right;
+}
+
+
 /*segundo fondo del index*/
 .fondo2-index {background-image: url("../assest/imagenes/Bmw-2inicio.png");
     background-size: cover;
@@ -177,12 +248,13 @@ a{
 /*linea divisora*/
 .linea-violeta{color: #481752;
     background-color: #481752;
-    width: 60%;
+    width: 50%;
     height: 5px;
     border-radius: 5px;
     margin-left: 20%;
     margin-top: 200px;
 }
+
 
 /*grabados*/
 .grabados{
@@ -230,9 +302,10 @@ a{
     flex-direction: row;
     color:white;
     font-family:"Orbitron", sans-serif;
-    padding-top: 10%;
+    padding-top: 5%;
     justify-content: space-between;
 }
+
 .texto-pola{
     width: 60%;
 }
@@ -251,6 +324,8 @@ a{
 .polarizado p{
     font-size: 20px;
 }
+
+
 
 
 
@@ -282,17 +357,7 @@ a{
     font-size: 60px;
 }
 
-.mini-servicios{ color: white;
-    font-family:"Orbitron", sans-serif;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-.mini-servicios h3{
-    display: flex;
-    justify-content: center;
-    font-size: 38px;
-}
+
 
 .autopartes{color:white;
     font-family:"Orbitron", sans-serif;
@@ -306,20 +371,6 @@ a{
     border-radius: 56px;
 }
 
-.catalogo{
-    display: flex;
-    flex-direction: row;
-    justify-content:space-between;
-}
-
-
-
-
-
-.productos{color: white;
-    font-family: "Encode Sans SC", sans-serif;
-    text-align: left;
-}
 .prud{color: white;
     font-family: "Encode Sans SC", sans-serif;
     font-size: 32px;
@@ -334,15 +385,7 @@ a{
     width: 450px;
 }
 
-.calcula-envio{color: white;
-    background-color:#5f5a5a;
-}
-.calcula-envio h2{
-    font-size: 32px
-}
-.calcula-envio p{
-    font-size: 24px;
-}
+
 .galery-right img{ background-position:right;
     background-repeat: no-repeat;
 }
