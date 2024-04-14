@@ -1,6 +1,4 @@
-*{
-    border: #481752 solid 1px
-}
+
 
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
 /*font-family:"Orbitron", sans-serif;*/
@@ -45,6 +43,7 @@ a{
 
 .nav{ display: flex; 
     width:100%;
+    height: 300px;
 }
 
 
@@ -52,7 +51,7 @@ a{
     color: white;
     font-family: "Encode Sans SC", sans-serif;
     font-size: 8px;
-    text-align: left;
+    text-align: right;
     margin-left: 50px;
     
 }
@@ -64,7 +63,7 @@ a{
 .contacto-nav div img{
     width: 20px;
     height: 20px;
-    margin-right: 3px;
+    margin-right: 6px;
 }
 
 .contacto-nav h3{
@@ -78,7 +77,7 @@ a{
     text-align: center;
     display:flex;
     flex-direction: column;
-    height: 90vh;
+    height: 1700px;
     width: 100%;
 }
 
@@ -87,8 +86,8 @@ a{
     background-position: center;
     background-size: cover;    
     background-repeat: no-repeat;
-    width: 100%;
-    height: 100vh;
+    width: 1245px;
+    height: 100%;
     align-items: center;
     text-align: center;
     padding-top: 35%;
@@ -102,7 +101,6 @@ a{
     justify-content: space-evenly;
     line-height: 10px;
     font-size: 16px;
-    padding-left: 50px;
 }
 .mini-servicios h3{
     display: flex;
@@ -119,6 +117,9 @@ a{
     border-radius: 5px;
     margin-left: 20%;
     margin-top: 100px;
+}
+.autopartes{
+    padding-top: 300px;
 }
 
 .catalogo{
@@ -140,30 +141,20 @@ a{
 .calcula-envio{color: white;
     background-color:#5f5a5a;
     margin-top: 100px;
-    display: flex;
-    flex-direction: column;
-
 }
-
-
-.calcula-envio img{
-    margin-left:93%;
-    width: 50px;
-    height: 50px;
+.calcula-envio h2{
+    font-size: 32px
+}
+.calcula-envio p{
+    font-size: 24px;
 }
 
 .ubicacion-index{background-color: #5C5A55;
     display: flex;
     flex-direction: column;
-    width: 100%;
 }
-
 .ubicacion-index h3{
     text-align: center;
-    color:white;
-    font-family:"Orbitron", sans-serif;
-    text-align:left;
-    font-size: 60px;
 }
 .ubicacion-index h4{
     font-size: 50px;
@@ -175,37 +166,18 @@ a{
 
 /*segundo fondo del index*/
 .fondo2-index {
-    height: 1200px;
+    height: 1400px;
     background-repeat: no-repeat;
     display:flex;
     flex-direction: column;
+    height: 1800px;
     width: 100%;
 }
 .fondo2-index div{background-image: url("../assest/imagenes/Bmw-2inicio.png");
-    background-size: contain;
+    background-size: cover;
     width: 100%;
     height: 100%;
     background-repeat: no-repeat;
-}
-.fondo2-index div h2{
-    padding-left: 20px;
-}
-.poli-index h2{
-    color:white;
-    font-family:"Orbitron", sans-serif;
-    text-align:left;
-    font-size: 60px;
-    width: 80%;
-}
-.poli-index p{
-    display: flex;
-    flex-direction: column;
-    color:white;
-    font-family:"Orbitron", sans-serif;
-    text-align:left;
-    font-size: 24px;
-    padding-left: 40px;
-    width: 80%;
 }
 
 
@@ -240,6 +212,15 @@ a{
 
 .sub-h2-raight h3{
     font-size: 32px;
+}
+.sub-left{display: flex;
+    flex-direction: column;
+    color:white;
+    font-family:"Orbitron", sans-serif;
+    text-align:left;
+    font-size: 24px;
+    margin-top: 0px;
+    padding-left: 40px;
 }
 
 /*SERVICIOS*/
@@ -502,6 +483,25 @@ a{
 
 /*fin de Catalogo.html*/
 
+.sub-left{ width: 100%;
+    height: 100%;
+}
+.sub-left h1{
+    margin-top: 20px;
+}
+.sub-left h3{
+    margin-top: 1px;
+}
+
+.sub-h2{color:white;
+    font-family:"Orbitron", sans-serif;
+    text-align:left;
+    font-size: 60px;
+}
+
+.galery-right img{ background-position:right;
+    background-repeat: no-repeat;
+}
 
 .mainColoc{
     width: 100%;
@@ -563,49 +563,33 @@ footer{
 
 
 
+
+
+
+
+
 @media (max-width:1245px){
-    /*Barra de navegacion*/
     /*index*/
     header {
         width: 100%;
     }
-    .nav li a{
-        margin-left: 70px;
-    }
     .contacto-nav{
         font-size: 7px;
-        margin-left: 27px;
     }
-
+    
     .Ccristales{
         width: 100%;
-        height: 1300px;
     }
     .Ccristales h1{width: 100%;
-        height: 90vh;
-    }
-    .mini-servicios{
-        font-size: 14px;
-        padding-right: 40px;
-    }
-    .linea-violeta-index{
-        margin-left: 25%;
     }
     .fondo2-index{
         width: 100%;
     }
     .fondo2-index div{
-        width: 100%;
-    }
-    .ubicacion-index h3{
-        padding-left:  15px; ;
-    }
-    .ubicacion-index div h4{
-        padding-right: 15px;
+        width: 1219px;
     }
 }
 
-/*Barra de navegacion*/
 @media (max-width:1202px) {
     header{
         width: 100%;
@@ -626,43 +610,8 @@ footer{
     }
 }
 
-/*cambios al index*/
-@media (max-width:1175px) {
-    .fondo-index div{
-        height: 100%;
-    }
-}
-
-/*cambios al index*/
-@media (max-width:1065px){
-    .mini-servicios div p{
-        font-size: 12px;
-        text-align: center;
-    }
-    .mini-servicios div h3{
-        font-size: 26px;
-    }
-    .boton-compra{
-        padding: 15px 20px;
-        width: 200px;
-    }
-    .productos img{
-        width: 200px;
-        height: 300px;
-    }
-    .ubicacion-index h3{
-        font-size: 40px;
-    }
-    .ubicacion-index h4{
-        font-size: 30px;
-    }
-}
-    
-
-
 
 @media (max-width:1004px){
-    /*Barra de navegacion*/
     header img{
         width: 70px;
         height: 60px;
@@ -675,12 +624,9 @@ footer{
     .contacto-nav{
         font-size: 6px;
     }
-
-    /*Pie de pagina*/
     footer{
         height: 40px;
     }
-
     /*servicios.html*/
     .fondo-ini-servicio img{
         height: 550px;
@@ -721,24 +667,6 @@ footer{
     }
 }
 
-@media (max-width:876px){
-    /*Index (MINI SERVICIOS)*/
-    .mini-servicios div p{
-        font-size: 10px;
-    }
-    .mini-servicios h3{
-        font-size: 34px;
-    }
-
-    /*Index (TItulo polarizado)*/
-    .poli-index h2{
-        font-size: 50px;
-    }
-    .poli-index p{
-        font-size: 20px;
-    }
-}
-
 @media (max-width:835px){
     .contacto-nav div img{
         width: 15px;
@@ -761,27 +689,7 @@ footer{
     }
 }
 
-@media (max-width:773px){
-    /*Imagens de productos INDEX*/
-    .productos img{
-        width: 150px;
-        height: 250px;
-        padding-left:30px ;
-    }
-}
-
-@media (max-width:742px){
-    /*mini serivicos INDEX*/
-    .mini-servicios div p{
-        font-size: 9px;
-    }
-    .mini-servicios div h3{
-        font-size: 20px;
-    }
-}
-
 @media (max-width:723px){
-    /*Barra de navegacion*/
     header img{
         width: 50px;
         height: 40px;
@@ -796,21 +704,6 @@ footer{
 }
 
 @media (max-width:696px){
-    /*mini serivicos INDEX*/
-    .mini-servicios{
-        padding-left: 35px;
-    }
-    /*Camioncito de HTML*/
-    .calcula-envio img{
-        margin-left:90%;
-    }
-    /*Boton de compra de index*/
-    .boton-compra{
-        padding:10px 15px;
-        width: 150px;
-    }
-
-    /*Servicio.html*/
     .fondo-ini-servicio img{
         height:400px; 
     }
@@ -824,22 +717,7 @@ footer{
     }
 }
 
-@media (max-width:646px){
-    /*H1 index*/
-    .Ccristales{
-        font-size:60px;
-    }
-    /*mini serivicos INDEX*/
-    .mini-servicios div p{
-        font-size:8px;
-    }
-    .mini-servicios div h3{
-        font-size:16px;
-    }
-}
-
 @media (max-width:633px){
-    /*Barra de navegacion*/
     .contacto-nav div img{
         width:10px;
         height: 10px;
@@ -886,39 +764,13 @@ footer{
     }
 }
 
-@media (max-width:608px){
-    /*img Productos index*/
-    .productos img{
-        width: 100px;
-        height: 150px;
-    }
-    /*Texto (UBICACION)*/
-    .ubicacion-index h3{
-        font-size: 35px;
-    }
-    .ubicacion-index h4{
-        font-size: 25px;
-    }
-}
-
 @media (max-width:571px){
-    /*Pie de pagina*/
     footer{
         height: 20px;
-    }
-    .mini-servicios div p{
-        font-size: 7px;
-    }
-    .mini-servicios h3{
-        font-size: 26px;
-    }
-    .mini-servicios{
-        padding-left: 20px;
     }
 }
 
 @media (max-width:510px){
-    /*Barra de navegacion*/
         .nav li a{
         margin-left: 10px;
     }
@@ -933,7 +785,6 @@ footer{
 }
 
 @media (max-width:467px){
-    /*Barra de navegacion*/
     header{
         display: flex;
     }
@@ -981,17 +832,18 @@ footer{
 }
 
 @media (max-width:393px){
-    /*Barra de navegacion*/
-        .nav li a{
-            font-size: 5px;
-            margin-left: 5px;
-        }
-        .contacto-nav{
-            font-size: 4px;
-            line-height: 1px;
-        }
-        .contacto-nav div img{
-            width: 7px;
-            height: 7px;
-        }
+    .nav li a{
+        font-size: 5px;
+        margin-left: 5px;
+    }
+    .contacto-nav{
+        font-size: 4px;
+        line-height: 1px;
+    }
+    .contacto-nav div img{
+        width: 7px;
+        height: 7px;
+    }
 }
+
+
