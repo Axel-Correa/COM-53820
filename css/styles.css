@@ -1,997 +1,1554 @@
-*{
-    border: #481752 solid 1px
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wdth,wght@87.5,100..900&family=Orbitron&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wdth,wght@87.5,100..900&family=Orbitron&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wdth,wght@87.5,100..900&family=Orbitron&display=swap");
+* {
+  border: #481752 solid 1px;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
 /*font-family:"Orbitron", sans-serif;*/
-@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wdth,wght@87.5,100..900&family=Orbitron&display=swap');
 /*font-family: "Encode Sans SC", sans-serif;*/
-
-
-.fondo{background-color: black;
+.fondo {
+  background-color: black;
 }
 
-header{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
-    height: 1px;
-
+/*General*/
+/*font-family:"Orbitron", sans-serif;*/
+/*font-family: "Encode Sans SC", sans-serif;*/
+.fondo {
+  background-color: black;
 }
 
-header img{
-    width: 90px;
-    height: 80px;
-    margin-right: 1px;
-
+/*font-family:"Orbitron", sans-serif;*/
+/*font-family: "Encode Sans SC", sans-serif;*/
+/*main de los HTML*/
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height: 1px;
 }
 
-ul{
-    list-style:none; 
+header img {
+  width: 90px;
+  height: 80px;
+  margin-right: 1px;
 }
-a{
-    text-decoration: none;
-    color: white;
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
 }
 
 .nav li a {
-    text-decoration: none;
-    color: white;
-    font-family: "Encode Sans SC", sans-serif;
-    font-size: 20px;
-    margin-left: 90px;
+  text-decoration: none;
+  color: white;
+  font-family: "Encode Sans SC", sans-serif;
+  font-size: 20px;
+  margin-left: 90px;
 }
 
-.nav{ display: flex; 
-    width:100%;
+.nav {
+  display: flex;
+  width: 100%;
 }
 
-
-.contacto-nav{ 
-    color: white;
-    font-family: "Encode Sans SC", sans-serif;
-    font-size: 8px;
-    text-align: left;
-    margin-left: 50px;
-    
-}
-.contacto-nav div{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-.contacto-nav div img{
-    width: 20px;
-    height: 20px;
-    margin-right: 3px;
+.contacto-nav {
+  color: white;
+  font-family: "Encode Sans SC", sans-serif;
+  font-size: 8px;
+  text-align: left;
+  margin-left: 50px;
 }
 
-.contacto-nav h3{
-    display: inline-block;
+.contacto-nav div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
-.Ccristales{
-    color: rgba(255, 255, 255, 0.5);
-    font-family:"Orbitron", sans-serif;
-    font-size: 80px;
-    text-align: center;
-    display:flex;
-    flex-direction: column;
-    height: 90vh;
-    width: 100%;
+.contacto-nav div img {
+  width: 20px;
+  height: 20px;
+  margin-right: 3px;
+}
+
+.contacto-nav h3 {
+  display: inline-block;
+}
+
+.Ccristales {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: "Orbitron", sans-serif;
+  font-size: 80px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  width: 100%;
 }
 
 /*fondo principal index*/
-.Ccristales h1{background-image: url("../assest/imagenes/Bmw-inico.png");
-    background-position: center;
-    background-size: cover;    
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 100vh;
-    align-items: center;
-    text-align: center;
-    padding-top: 35%;
+.Ccristales h1 {
+  background-image: url("../assest/imagenes/Bmw-inico.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  text-align: center;
+  padding-top: 35%;
 }
 
-.mini-servicios{ width: 90%;
-    color: white;
-    font-family:"Orbitron", sans-serif;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    line-height: 10px;
-    font-size: 16px;
-    padding-left: 50px;
+.mini-servicios {
+  width: 90%;
+  color: white;
+  font-family: "Orbitron", sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  line-height: 10px;
+  font-size: 16px;
+  padding-left: 50px;
 }
-.mini-servicios h3{
-    display: flex;
-    justify-content: center;
-    font-size: 40px;
+
+.mini-servicios h3 {
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
 }
 
 /*linea divisora index*/
-.linea-violeta-index{
-    color: #481752;
-    background-color: #481752;
-    width: 50%;
-    height: 5px;
-    border-radius: 5px;
-    margin-left: 20%;
-    margin-top: 100px;
+.linea-violeta-index {
+  color: #481752;
+  background-color: #481752;
+  width: 50%;
+  height: 5px;
+  border-radius: 5px;
+  margin-left: 20%;
+  margin-top: 100px;
 }
 
-.catalogo{
-    display: flex;
-    flex-direction: row;
-    justify-content:space-evenly;
-}
-.productos{display: flex;
-    flex-direction: column;
-    color: white;
-    font-family: "Encode Sans SC", sans-serif;
-    text-align: center;
-}
-.productos img{
-    width:294px ;
-    height: 396px;
+.catalogo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
-.calcula-envio{color: white;
-    background-color:#5f5a5a;
-    margin-top: 100px;
-    display: flex;
-    flex-direction: column;
-
+.productos {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-family: "Encode Sans SC", sans-serif;
+  text-align: center;
 }
 
-
-.calcula-envio img{
-    margin-left:93%;
-    width: 50px;
-    height: 50px;
+.productos img {
+  width: 294px;
+  height: 396px;
 }
 
-.ubicacion-index{background-color: #5C5A55;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
+.boton-compra {
+  color: white;
+  font-family: "Orbitron", sans-serif;
+  background-color: #481752;
+  padding: 20px 30px;
+  border: none;
+  border-radius: 56px;
 }
 
-.ubicacion-index h3{
-    text-align: center;
-    color:white;
-    font-family:"Orbitron", sans-serif;
-    text-align:left;
-    font-size: 60px;
-}
-.ubicacion-index h4{
-    font-size: 50px;
-    color: white;
-    font-family:"Orbitron", sans-serif;
-    text-align: right;
+.calcula-envio {
+  color: white;
+  background-color: #5f5a5a;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
 }
 
+.calcula-envio img {
+  margin-left: 93%;
+  width: 50px;
+  height: 50px;
+}
+
+.ubicacion-index {
+  background-color: #5C5A55;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.ubicacion-index h3 {
+  text-align: center;
+  color: white;
+  font-family: "Orbitron", sans-serif;
+  text-align: left;
+  font-size: 60px;
+}
+
+.ubicacion-index h4 {
+  font-size: 50px;
+  color: white;
+  font-family: "Orbitron", sans-serif;
+  text-align: right;
+}
 
 /*segundo fondo del index*/
 .fondo2-index {
-    height: 1200px;
-    background-repeat: no-repeat;
-    display:flex;
-    flex-direction: column;
-    width: 100%;
-}
-.fondo2-index div{background-image: url("../assest/imagenes/Bmw-2inicio.png");
-    background-size: contain;
-    width: 100%;
-    height: 100%;
-    background-repeat: no-repeat;
-}
-.fondo2-index div h2{
-    padding-left: 20px;
-}
-.poli-index h2{
-    color:white;
-    font-family:"Orbitron", sans-serif;
-    text-align:left;
-    font-size: 60px;
-    width: 80%;
-}
-.poli-index p{
-    display: flex;
-    flex-direction: column;
-    color:white;
-    font-family:"Orbitron", sans-serif;
-    text-align:left;
-    font-size: 24px;
-    padding-left: 40px;
-    width: 80%;
+  height: 1200px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 
-
-
-.titulo{
-    color:white;
-    font-family:"Orbitron", sans-serif;
-    font-size: 80px;
-    text-align: left;
-    margin-top: 5%;
+.poli-index {
+  background-image: url("../assest/imagenes/Bmw-2inicio.png");
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
 }
 
-/*TiTulos a la derecha*/
-
-
-.titulo-right{color:white;
-    font-family:"Orbitron", sans-serif;
-    font-size: 80px;
-    text-align: right;
+.fondo2-index div h2 {
+  padding-left: 20px;
 }
 
-
-.mainColoc h1{
-    color:white;
-    font-family:"Orbitron", sans-serif;
-    font-size: 80px;
-    text-align:left;
-    padding-top: 20px;
+.poli-index h2 {
+  color: white;
+  font-family: "Orbitron", sans-serif;
+  text-align: left;
+  font-size: 60px;
+  width: 80%;
 }
 
-
-
-.sub-h2-raight h3{
-    font-size: 32px;
+.poli-index p {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-family: "Orbitron", sans-serif;
+  text-align: left;
+  font-size: 24px;
+  padding-left: 40px;
+  width: 80%;
 }
 
 /*SERVICIOS*/
-.fondo-ini-servicio img{
-    height: 650px;
-}
-.fondo-ini-servicio{display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
-    padding-top: 120px;
-}
-.titulo-servicios{display: flex;
-    flex-direction: column;
-    color: white;
-    font-family:"Orbitron", sans-serif;
-    text-align: left;
-}
-.titulo-servicios h1{
-    font-size: 75px;
-    line-height: 20px;
+.fondo-ini-servicio img {
+  height: 650px;
 }
 
+.fondo-ini-servicio {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  padding-top: 120px;
+}
 
-.titulo-servicios h3{
-    font-size: 32px;
-    line-height: 10px;
+.titulo-servicios {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-family: "Orbitron", sans-serif;
+  text-align: left;
+}
+
+.titulo-servicios h1 {
+  font-size: 75px;
+  line-height: 20px;
+}
+
+.titulo-servicios h3 {
+  font-size: 32px;
+  line-height: 10px;
 }
 
 /*Boton de servicios*/
-.boton-info{
-    text-align: center;
-}
-.boton-info button{
-    color: white;
-    font-family:"Orbitron", sans-serif;
-    background-color: #481752;
-    border: none;
-    border-radius: 56px;
-    padding: 20px 20px;
-    width: 300px;
-}
-/*linea divisora*/
-.linea-violeta{color: #481752;
-    background-color: #481752;
-    width: 50%;
-    height: 5px;
-    border-radius: 5px;
-    margin-left: 20%;
-    margin-top: 150px;
+.boton-info {
+  text-align: center;
 }
 
+.boton-info button {
+  color: white;
+  font-family: "Orbitron", sans-serif;
+  background-color: #481752;
+  border: none;
+  border-radius: 56px;
+  padding: 20px 20px;
+  width: 300px;
+}
+
+/*linea divisora*/
+.linea-violeta {
+  color: #481752;
+  background-color: #481752;
+  width: 50%;
+  height: 5px;
+  border-radius: 5px;
+  margin-left: 20%;
+  margin-top: 150px;
+}
 
 /*grabados*/
-.grabados{
-    display: flex;
-    flex-direction: column;
-    color:white;
-    font-family:"Orbitron", sans-serif;
-    text-align:left;
-    font-size: 24px;
-}
-.grabados h2{
-    font-size: 48px;
-
+.grabados {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-family: "Orbitron", sans-serif;
+  text-align: left;
+  font-size: 24px;
 }
 
-.grabados h3{
-    font-size: 32px;
+.grabados h2 {
+  font-size: 48px;
+}
+
+.grabados h3 {
+  font-size: 32px;
 }
 
 /*texto de mantenimiento*/
-.mantenimiento{display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    color:white;
-    font-family:"Orbitron", sans-serif;
-    padding-top: 5%;
+.mantenimiento {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+  font-family: "Orbitron", sans-serif;
+  padding-top: 5%;
 }
 
-.mantenimiento h2{
-    font-size: 48px;
+.mantenimiento h2 {
+  font-size: 48px;
 }
-.mantenimiento h3{
-    font-size: 32px;
-    line-height: 10px;
+
+.mantenimiento h3 {
+  font-size: 32px;
+  line-height: 10px;
 }
-.mantenimiento img{
-    margin-top: 5%;
-    width: 30%;
-    height: 30%;
-    border-radius: 30%;
-    margin-right: 20px;
+
+.mantenimiento img {
+  margin-top: 5%;
+  width: 30%;
+  height: 30%;
+  border-radius: 30%;
+  margin-right: 20px;
 }
 
 /*polarizado*/
-.polarizado{display: flex;
-    flex-direction: row;
-    color:white;
-    font-family:"Orbitron", sans-serif;
-    padding-top: 5%;
-    justify-content: space-between;
+.polarizado {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  font-family: "Orbitron", sans-serif;
+  padding-top: 5%;
+  justify-content: space-between;
 }
 
-.texto-pola{
-    width: 60%;
-}
-.polarizado img{width:400px;
-    height: 300px;
-    border-radius: 30%;
-    margin-top: 100px;
-    margin-right: 20px;
+.texto-pola {
+  width: 60%;
 }
 
-.polarizado h2{font-size: 48px;
+.polarizado img {
+  width: 400px;
+  height: 300px;
+  border-radius: 30%;
+  margin-top: 100px;
+  margin-right: 20px;
 }
 
-.polarizado h3{font-size: 32px;
+.polarizado h2 {
+  font-size: 48px;
 }
 
-.polarizado p{
-    font-size: 20px;
+.polarizado h3 {
+  font-size: 32px;
 }
 
-
-
-
+.polarizado p {
+  font-size: 20px;
+}
 
 /*tipos de lamina de palorizados (explicacion)*/
-.tipo-de-polarizado{
-    font-size: 24px;
+.tipo-de-polarizado {
+  font-size: 24px;
 }
-.img-polarizado{
-    width: 360px;
-    height: 340px;
-}
-/*Fin de pagina servicios*/
 
+.img-polarizado {
+  width: 360px;
+  height: 340px;
+}
 
 /*Pagina Autopartes*/
-
-.linea-violeta-autopartes{
-    color: #481752;
-    background-color: #481752;
-    width: 50%;
-    height: 5px;
-    border-radius: 5px;
-    margin-left: 20%;
-    margin-top: 250px;
+.linea-violeta-autopartes {
+  color: #481752;
+  background-color: #481752;
+  width: 50%;
+  height: 5px;
+  border-radius: 5px;
+  margin-left: 20%;
+  margin-top: 250px;
 }
 
-.titulo-autorpartes{
-    color:white;
-    font-family:"Orbitron", sans-serif;
-    font-size: 80px;
-    text-align: right;
+.titulo-autorpartes {
+  color: white;
+  font-family: "Orbitron", sans-serif;
+  font-size: 80px;
+  text-align: right;
+  padding-top: 100px;
 }
 
-.sub-autopartes{
-    color:white;
-    font-family:"Orbitron", sans-serif;
-    font-size: 36px;
-    text-align: right;
-    line-height: 5px;
+.sub-autopartes {
+  color: white;
+  font-family: "Orbitron", sans-serif;
+  font-size: 36px;
+  text-align: right;
+  line-height: 5px;
 }
 
-.subtitulo-optica{
-    color:white;
-    font-family:"Orbitron", sans-serif;
-    text-align:left;
-    font-size: 70px;
-}
-.catalogo-optica{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-.catalogo-optica div{
-    width: 300px;
-}
-.catalogo-optica div img{
-    width: 100%;
-    height: 100%;
-    border-radius: 59px;
+.subtitulo-optica {
+  color: white;
+  font-family: "Orbitron", sans-serif;
+  text-align: left;
+  font-size: 70px;
 }
 
-.subtitulo-autopartes{
-    color:white;
-    font-family:"Orbitron", sans-serif;
-    text-align:left;
-    font-size: 70px;
+.catalogo-optica {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-
-.catalogo-autopartes{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-.catalogo-autopartes div{
-    width: 300px;
-}
-.catalogo-autopartes div img{
-    width: 100%;
-    height: 100%;
-    border-radius: 59px;
-}
-.subtitulo-guardaplast{
-    color:white;
-    font-family:"Orbitron", sans-serif;
-    text-align:left;
-    font-size: 70px;
+.catalogo-optica div {
+  width: 300px;
 }
 
-
-.catalogo-guardaplast{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+.catalogo-optica div img {
+  width: 100%;
+  height: 100%;
+  border-radius: 59px;
 }
 
-
-.catalogo-guardaplast div{
-    width: 300px;
+.subtitulo-autopartes {
+  color: white;
+  font-family: "Orbitron", sans-serif;
+  text-align: left;
+  font-size: 70px;
+  /*color: map-get($map: $fuentes-autopartes, $key: color-letra) ;
+  font-family: map-get($map: $fuentes-autopartes, $key:tipografia );
+  text-align:map-get($map: $fuentes-autopartes, $key:alineacion );
+  font-size: 70px;*/
 }
 
-.catalogo-guardaplast div img{
-    width: 100%;
-    height: 100%;
-    border-radius: 59px;
+.catalogo-autopartes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-.subtitulo-paragolpe{
-    color:white;
-    font-family:"Orbitron", sans-serif;
-    text-align:left;
-    font-size: 70px;
+.catalogo-autopartes div {
+  width: 300px;
 }
 
-.catalogo-paragolpe{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-.catalogo-paragolpe div{
-    width: 300px;
-}
-.catalogo-paragolpe div img{
-    width: 100%;
-    height: 100%;
-    border-radius: 59px;
-}
-.boton-compra{color: white;
-    font-family:"Orbitron", sans-serif;
-    background-color: #481752;
-    padding: 20px 30px;
-    border: none;
-    border-radius: 56px;
+.catalogo-autopartes div img {
+  width: 100%;
+  height: 100%;
+  border-radius: 59px;
 }
 
-/*fin de Catalogo.html*/
-
-
-.mainColoc{
-    width: 100%;
-    height: 1000px;
-}
-footer{ 
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 100%;
-    height: 60px;
-    background-color: white; 
+.subtitulo-guardaplast {
+  color: white;
+  font-family: "Orbitron", sans-serif;
+  text-align: left;
+  font-size: 70px;
 }
 
+.catalogo-guardaplast {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.catalogo-guardaplast div {
+  width: 300px;
+}
+
+.catalogo-guardaplast div img {
+  width: 100%;
+  height: 100%;
+  border-radius: 59px;
+}
+
+.subtitulo-paragolpe {
+  color: white;
+  font-family: "Orbitron", sans-serif;
+  text-align: left;
+  font-size: 70px;
+}
+
+.catalogo-paragolpes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.catalogo-paragolpes div {
+  width: 300px;
+}
+
+.catalogo-paragolpes div img {
+  width: 100%;
+  height: 100%;
+  border-radius: 59px;
+}
+
+.boton-compra {
+  color: white;
+  font-family: "Orbitron", sans-serif;
+  background-color: #481752;
+  padding: 20px 30px;
+  border: none;
+  border-radius: 56px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  height: 60px;
+  background-color: white;
+  margin-top: 100px;
+}
+
+/*fin de Autopartes.html*/
 /*Colocacion.html*/
-.mainColoc div h1{margin-top: 100px;
-    background-image: url("../assest/imagenes/Colocacion/inicio.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.mainColoc {
+  width: 100%;
+}
+
+.titulo-colocacion {
+  color: white;
+  font-family: "Orbitron", sans-serif;
+  font-size: 80px;
+  text-align: left;
+  padding-top: 20px;
+}
+
+.subtitulo-colocacion {
+  color: white;
+  font-family: "Orbitron", sans-serif;
+  font-size: 20px;
+  text-align: left;
+}
+
+.mainColoc div h1 {
+  margin-top: 100px;
+  background-image: url("../assest/imagenes/Colocacion/inicio.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 800px;
+}
+
+.img-colocacion {
+  display: flex;
+  justify-content: left;
+  width: 100%;
+  height: 495px;
+}
+
+.img-colocacion img {
+  border-radius: 66px;
+  width: 660px;
+}
+
+.video-colocacion {
+  display: flex;
+  justify-content: right;
+  width: 100%;
+}
+
+.video-colocacion video {
+  border-radius: 66px;
+  width: 660px;
+  height: 495px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  height: 60px;
+  background-color: white;
+  margin-top: 100px;
+}
+
+.img-contacto {
+  width: 100%;
+  height: 800px;
+  padding-top: 100px;
+}
+
+.img-contacto img {
+  height: 100%;
+}
+
+.titulo-contacto {
+  color: white;
+  font-family: "Orbitron", sans-serif;
+  font-size: 80px;
+  text-align: left;
+}
+
+.subtitulo-contacto {
+  color: white;
+  font-family: "Orbitron", sans-serif;
+  font-size: 20px;
+  text-align: left;
+}
+
+.direccion {
+  color: white;
+  font-family: "Orbitron", sans-serif;
+  text-align: right;
+}
+
+.direccion h2 {
+  font-size: 25px;
+}
+
+.direccion h3 {
+  font-size: 20px;
+}
+
+/*fin de los HTML*/
+/*Footer*/
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  height: 60px;
+  background-color: white;
+}
+
+.titulo {
+  color: white;
+  font-family: "Orbitron", sans-serif;
+  font-size: 80px;
+  text-align: left;
+  margin-top: 5%;
+}
+
+/*TiTulos a la derecha*/
+.titulo-right {
+  color: white;
+  font-family: "Orbitron", sans-serif;
+  font-size: 80px;
+  text-align: right;
+}
+
+.sub-h2-raight h3 {
+  font-size: 32px;
+}
+
+@media (max-width: 1245px) {
+  /*Barra de navegacion*/
+  /*index*/
+  header {
     width: 100%;
-    height: 800px;
-}
-
-.img-colocacion{
-    display: flex;
-    justify-content: left;
+  }
+  .nav li a {
+    margin-left: 70px;
+  }
+  .contacto-nav {
+    font-size: 7px;
+    margin-left: 27px;
+  }
+  .Ccristales {
     width: 100%;
-    height: 495px;
-}
-.img-colocacion img{
-    border-radius: 66px;
-    width: 660px;
-}
-
-.video-colocacion{
-    display: flex;
-    justify-content: right;
+    height: 1300px;
+  }
+  .Ccristales h1 {
     width: 100%;
-
+    height: 90vh;
+  }
+  .mini-servicios {
+    font-size: 14px;
+    padding-right: 40px;
+  }
+  .linea-violeta-index {
+    margin-left: 25%;
+  }
+  .fondo2-index {
+    width: 100%;
+  }
+  .fondo2-index div {
+    width: 100%;
+  }
+  .ubicacion-index h3 {
+    padding-left: 15px;
+  }
+  .ubicacion-index div h4 {
+    padding-right: 15px;
+  }
 }
-.video-colocacion video{
-    border-radius: 66px;
-    width: 660px;
-    height: 495px;
-}
-
-/*contacto.html*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media (max-width:1245px){
-    /*Barra de navegacion*/
-    /*index*/
-    header {
-        width: 100%;
-    }
-    .nav li a{
-        margin-left: 70px;
-    }
-    .contacto-nav{
-        font-size: 7px;
-        margin-left: 27px;
-    }
-
-    .Ccristales{
-        width: 100%;
-        height: 1300px;
-    }
-    .Ccristales h1{width: 100%;
-        height: 90vh;
-    }
-    .mini-servicios{
-        font-size: 14px;
-        padding-right: 40px;
-    }
-    .linea-violeta-index{
-        margin-left: 25%;
-    }
-    .fondo2-index{
-        width: 100%;
-    }
-    .fondo2-index div{
-        width: 100%;
-    }
-    .ubicacion-index h3{
-        padding-left:  15px; ;
-    }
-    .ubicacion-index div h4{
-        padding-right: 15px;
-    }
-}
-
 /*Barra de navegacion*/
-@media (max-width:1202px) {
-    header{
-        width: 100%;
-    }
-    header img{
-        width: 80px;
-        height: 70px;
-        margin-right: 1px;
-    }
-    .nav li a {
-        font-size: 20px;
-        margin-left:50px ;
-    }
-    .contacto-nav{
-        font-size: 6px;
-        margin-right: 10px;
-        margin-left: 10px;
-    }
+@media (max-width: 1202px) {
+  header {
+    width: 100%;
+  }
+  header img {
+    width: 80px;
+    height: 70px;
+    margin-right: 1px;
+  }
+  .nav li a {
+    font-size: 20px;
+    margin-left: 50px;
+  }
+  .contacto-nav {
+    font-size: 6px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
 }
-
-/*cambios al index*/
-@media (max-width:1175px) {
-    .fondo-index div{
-        height: 100%;
-    }
+/*segundo fondo index*/
+@media (max-width: 1175px) {
+  .Ccristales {
+    height: 1150px;
+  }
+  .fondo2-index {
+    height: 1150px;
+  }
 }
-
-/*cambios al index*/
-@media (max-width:1065px){
-    .mini-servicios div p{
-        font-size: 12px;
-        text-align: center;
-    }
-    .mini-servicios div h3{
-        font-size: 26px;
-    }
-    .boton-compra{
-        padding: 15px 20px;
-        width: 200px;
-    }
-    .productos img{
-        width: 200px;
-        height: 300px;
-    }
-    .ubicacion-index h3{
-        font-size: 40px;
-    }
-    .ubicacion-index h4{
-        font-size: 30px;
-    }
+@media (max-width: 1113px) {
+  .Ccristales {
+    height: 1100px;
+  }
+  .fondo2-index {
+    height: 1100px;
+  }
 }
-    
-
-
-
-@media (max-width:1004px){
-    /*Barra de navegacion*/
-    header img{
-        width: 70px;
-        height: 60px;
-        margin-right: 1px;
-    }
-    .nav li a{
-        font-size:15px;
-        margin-left: 40px;
-    }
-    .contacto-nav{
-        font-size: 6px;
-    }
-
-    /*Pie de pagina*/
-    footer{
-        height: 40px;
-    }
-
-    /*servicios.html*/
-    .fondo-ini-servicio img{
-        height: 550px;
-    }
-    .titulo-servicios h1{
-        font-size:50px ;
-        line-height: 1%;
-    }
-    .titulo-servicios h3{
-        font-size: 19px;
-        line-height: 8px;
-    }
-    .grabados h2{
-        font-size: 35px;
-    }
-    .grabados h3{
-        font-size: 19px;
-    }
-    .mantenimiento div h2{
-        font-size: 35px;
-    }
-    .mantenimiento div h3{
-        font-size: 25px;
-    }
-    .polarizado img{
-        width:300px;
-        height:250px;
-        border-radius:25%;
-    }
-    .texto-pola h2{
-        font-size: 35px;
-    }
-    .texto-pola h3{
-        font-size: 19px;
-    }
-    .linea-violeta{
-        margin-top: 50px;
-    }
+@media (max-width: 1075px) {
+  .fondo2-index {
+    height: 1050px;
+  }
 }
-
-@media (max-width:876px){
-    /*Index (MINI SERVICIOS)*/
-    .mini-servicios div p{
-        font-size: 10px;
-    }
-    .mini-servicios h3{
-        font-size: 34px;
-    }
-
-    /*Index (TItulo polarizado)*/
-    .poli-index h2{
-        font-size: 50px;
-    }
-    .poli-index p{
-        font-size: 20px;
-    }
+/* fin segundo fondo index*/
+@media (max-width: 1065px) {
+  .mini-servicios div p {
+    font-size: 12px;
+    text-align: center;
+  }
+  .mini-servicios div h3 {
+    font-size: 26px;
+  }
+  .boton-compra {
+    padding: 15px 20px;
+    width: 200px;
+  }
+  .productos img {
+    width: 200px;
+    height: 300px;
+  }
+  .ubicacion-index h3 {
+    font-size: 40px;
+  }
+  .ubicacion-index h4 {
+    font-size: 30px;
+  }
 }
+/* segundo fondo index*/
+@media (max-width: 1013px) {
+  .fondo2-index {
+    height: 1000px;
+  }
+}
+/* fin segundo fondo index*/
+@media (max-width: 1004px) {
+  /*Barra de navegacion*/
+  header img {
+    width: 70px;
+    height: 60px;
+    margin-right: 1px;
+  }
+  .nav li a {
+    font-size: 15px;
+    margin-left: 40px;
+  }
+  .contacto-nav {
+    font-size: 6px;
+  }
+  /*Pie de pagina*/
+  footer {
+    height: 40px;
+  }
+  /*servicios.html*/
+  .fondo-ini-servicio img {
+    height: 550px;
+  }
+  .titulo-servicios h1 {
+    font-size: 50px;
+    line-height: 1%;
+  }
+  .titulo-servicios h3 {
+    font-size: 19px;
+    line-height: 8px;
+  }
+  .grabados h2 {
+    font-size: 35px;
+  }
+  .grabados h3 {
+    font-size: 19px;
+  }
+  .mantenimiento div h2 {
+    font-size: 35px;
+  }
+  .mantenimiento div h3 {
+    font-size: 25px;
+  }
+  .polarizado img {
+    width: 300px;
+    height: 250px;
+    border-radius: 25%;
+  }
+  .texto-pola h2 {
+    font-size: 35px;
+  }
+  .texto-pola h3 {
+    font-size: 19px;
+  }
+  .linea-violeta {
+    margin-top: 50px;
+  }
+  /* Cambios en Autopartes.html
 
-@media (max-width:835px){
-    .contacto-nav div img{
-        width: 15px;
-        height: 15px;
-    }
-    /*servicio.html:section polarizado*/
-    .texto-pola p{
-        font-size:15px ;
-    }
-    .polarizado img{
+  PRODUCTOS*/
+  /*Optica*/
+  .subtitulo-optica {
+    font-size: 60px;
+  }
+  .catalogo-optica div {
+    width: 200px;
+    height: 300px;
+    padding: 30px 30px;
+  }
+  /*Autopartes*/
+  .subtitulo-autopartes {
+    font-size: 60px;
+  }
+  .catalogo-autopartes div {
+    width: 200px;
+    height: 300px;
+    padding: 30px 30px;
+  }
+  /*Guardaplast*/
+  .subtitulo-guardaplast {
+    font-size: 60px;
+  }
+  .catalogo-guardaplast div {
+    width: 200px;
+    height: 300px;
+    padding: 30px 30px;
+  }
+  /*Paragolpe*/
+  .subtitulo-paragolpe {
+    font-size: 60px;
+  }
+  .catalogo-paragolpes div {
+    width: 200px;
+    height: 300px;
+    padding: 30px 30px;
+  }
+  /*Fin de productos*/
+}
+/* segundo fondo index*/
+@media (max-width: 972px) {
+  /* segundo fondo index*/
+  .fondo2-index {
+    height: 950px;
+  }
+  /*Cambios en Autopartes.html*/
+}
+@media (max-width: 922px) {
+  .Ccristales {
+    height: 950px;
+  }
+  .fondo2-index {
+    height: 900px;
+  }
+}
+/* fin segundo fondo index*/
+@media (max-width: 876px) {
+  /*Index (MINI SERVICIOS)*/
+  .mini-servicios div p {
+    font-size: 10px;
+  }
+  .mini-servicios h3 {
+    font-size: 34px;
+  }
+  /*Index (TItulo polarizado)*/
+  .poli-index h2 {
+    font-size: 50px;
+  }
+  .poli-index p {
+    font-size: 20px;
+  }
+}
+/* segundo fondo index*/
+@media (max-width: 873px) {
+  .fondo2-index {
+    height: 840px;
+  }
+}
+/* fin segundo fondo index*/
+@media (max-width: 835px) {
+  .contacto-nav div img {
+    width: 15px;
+    height: 15px;
+  }
+  .pie-auropartes img {
+    height: 40px;
+  }
+  /*servicio.html:section polarizado*/
+  .texto-pola p {
+    font-size: 15px;
+  }
+  .polarizado img {
     width: 250px;
     height: 200px;
-    }
+  }
+  /* Cambios en Autopartes.html*/
+  .titulo-autorpartes {
+    font-size: 60px;
+  }
+  .sub-autopartes {
+    font-size: 30px;
+  }
+  /*PRODUCTOS*/
+  /*Optica*/
+  .subtitulo-optica {
+    font-size: 52px;
+  }
+  .catalogo-optica div {
+    width: 170px;
+    height: 270px;
+    padding: 30px 30px;
+  }
+  /*Autopartes*/
+  .subtitulo-autopartes {
+    font-size: 52px;
+  }
+  .catalogo-autopartes div {
+    width: 170px;
+    height: 270px;
+    padding: 30px 30px;
+  }
+  /*Guardaplast*/
+  .subtitulo-guardaplast {
+    font-size: 52px;
+  }
+  .catalogo-guardaplast div {
+    width: 170px;
+    height: 270px;
+    padding: 30px 30px;
+  }
+  /*Paragolpe*/
+  .subtitulo-paragolpe {
+    font-size: 52px;
+  }
+  .catalogo-paragolpes div {
+    width: 170px;
+    height: 270px;
+    padding: 30px 30px;
+  }
+}
+/* segundo fondo index*/
+@media (max-width: 823px) {
+  .fondo2-index {
+    height: 800px;
+  }
+}
+/* fin segundo fondo index*/
+@media (max-width: 813px) {
+  /*barra de navegacion*/
+  .nav li a {
+    margin-left: 30px;
+  }
+}
+/* segundo fondo index*/
+@media (max-width: 783px) {
+  .Ccristales {
+    height: 850px;
+  }
+  .Ccristales h1 {
+    font-size: 70px;
+  }
+  .fondo2-index {
+    height: 770px;
+  }
+}
+/* fin segundo fondo index*/
+@media (max-width: 773px) {
+  /*Imagens de productos INDEX*/
+  .productos img {
+    width: 150px;
+    height: 250px;
+    padding-left: 30px;
+  }
+}
+/* segundo fondo index*/
+@media (max-width: 763px) {
+  .fondo2-index {
+    height: 720px;
+  }
+}
+/* fin segundo fondo index*/
+@media (max-width: 742px) {
+  /*mini serivicos INDEX*/
+  .mini-servicios div p {
+    font-size: 9px;
+  }
+  .mini-servicios div h3 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 723px) {
+  .Ccristales {
+    height: 750px;
+  }
+  .fondo2-index {
+    height: 690px;
+  }
+  /*Barra de navegacion*/
+  header img {
+    width: 50px;
+    height: 40px;
+  }
+  .nav li a {
+    font-size: 12px;
+  }
+  .contacto-nav {
+    font-size: 5px;
+    line-height: 2px;
+  }
+  /* Cambios en Autopartes.html*/
+  .titulo-autorpartes {
+    font-size: 54px;
+  }
+  .sub-autopartes {
+    font-size: 26px;
+  }
+  .boton-compra {
+    width: 150px;
+  }
+}
+/* segundo fondo index*/
+@media (max-width: 703px) {
+  .fondo2-index {
+    height: 690px;
+  }
+}
+/* fin segundo fondo index*/
+@media (max-width: 696px) {
+  .fondo2-index {
+    height: 650px;
+  }
+  /*mini serivicos INDEX*/
+  .mini-servicios {
+    padding-left: 35px;
+  }
+  /*Camioncito de HTML*/
+  .calcula-envio img {
+    margin-left: 90%;
+  }
+  /*Boton de compra de index*/
+  .boton-compra {
+    padding: 10px 15px;
+    width: 150px;
+  }
+  /*Servicio.html*/
+  .fondo-ini-servicio img {
+    height: 400px;
+  }
+  .mantenimiento img {
+    width: 25%;
+    height: 25%;
+  }
+  .polarizado img {
+    width: 190px;
+    height: 140px;
+  }
+  /*Optica*/
+  .subtitulo-optica {
+    font-size: 48px;
+  }
+  .catalogo-optica div {
+    width: 130px;
+    height: 230px;
+    padding: 30px 30px;
+  }
+  /*Autopartes*/
+  .subtitulo-autopartes {
+    font-size: 48px;
+  }
+  .catalogo-autopartes div {
+    width: 130px;
+    height: 230px;
+    padding: 30px 30px;
+  }
+  /*Guardaplast*/
+  .subtitulo-guardaplast {
+    font-size: 48px;
+  }
+  .catalogo-guardaplast div {
+    width: 130px;
+    height: 230px;
+    padding: 30px 30px;
+  }
+  /*Paragolpe*/
+  .subtitulo-paragolpe {
+    font-size: 48px;
+  }
+  .catalogo-paragolpes div {
+    width: 130px;
+    height: 230px;
+    padding: 30px 30px;
+  }
+}
+@media (max-width: 646px) {
+  .Ccristales {
+    height: 700px;
+  }
+  .Ccristales h1 {
+    font-size: 60px;
+  }
+  .fondo2-index {
+    height: 620px;
+  }
+  /*mini serivicos INDEX*/
+  .mini-servicios div p {
+    font-size: 8px;
+  }
+  .mini-servicios div h3 {
+    font-size: 16px;
+  }
+}
+@media (max-width: 633px) {
+  /*Barra de navegacion*/
+  .contacto-nav div img {
+    width: 10px;
+    height: 10px;
+  }
+  .nav li a {
+    font-size: 9px;
+    margin-left: 20px;
+  }
+  /*servico.html*/
+  .titulo-servicios h1 {
+    font-size: 35px;
+  }
+  .titulo-servicios h3 {
+    font-size: 14px;
+  }
+  .boton-info button {
+    padding: 10px 10px;
+    width: 150px;
+  }
+  .grabados h2 {
+    font-size: 25px;
+  }
+  .grabados h3 {
+    font-size: 14px;
+  }
+  .mantenimiento div h2 {
+    font-size: 25px;
+  }
+  .mantenimiento div h3 {
+    font-size: 14px;
+  }
+  .texto-pola h2 {
+    font-size: 25px;
+  }
+  .texto-pola h3 {
+    font-size: 14px;
+  }
+  .texto-pola p {
+    font-size: 12px;
+  }
+  .polarizado img {
+    width: 140px;
+    height: 100px;
+  }
+  /* Cambios en Autopartes.html*/
+  .titulo-autorpartes {
+    font-size: 50px;
+  }
+  .sub-autopartes {
+    font-size: 22px;
+  }
+  .img-fondo-aut img {
+    width: 490px;
+    height: 600px;
+  }
+}
+@media (max-width: 608px) {
+  .Ccristales {
+    height: 650px;
+  }
+  .fondo2-index {
+    height: 590px;
+  }
+  /*img Productos index*/
+  .productos img {
+    width: 100px;
+    height: 150px;
+  }
+  /*Texto (UBICACION)*/
+  .ubicacion-index h3 {
+    font-size: 35px;
+  }
+  .ubicacion-index h4 {
+    font-size: 25px;
+  }
+  /*Optica*/
+  .subtitulo-optica {
+    font-size: 40px;
+  }
+  .catalogo-optica div {
+    width: 100px;
+    height: 200px;
+    padding: 30px 30px;
+  }
+  /*Autopartes*/
+  .subtitulo-autopartes {
+    font-size: 40px;
+  }
+  .catalogo-autopartes div {
+    width: 100px;
+    height: 200px;
+    padding: 30px 30px;
+  }
+  /*Guardaplast*/
+  .subtitulo-guardaplast {
+    font-size: 40px;
+  }
+  .catalogo-guardaplast div {
+    width: 100px;
+    height: 200px;
+    padding: 30px 30px;
+  }
+  /*Paragolpe*/
+  .subtitulo-paragolpe {
+    font-size: 40px;
+  }
+  .catalogo-paragolpes div {
+    width: 100px;
+    height: 200px;
+    padding: 30px 30px;
+  }
+  .boton-compra {
+    padding: 10px 15px;
+    width: 100px;
+  }
+}
+@media (max-width: 571px) {
+  .Ccristales {
+    height: 600px;
+  }
+  .poli-index h2 {
+    font-size: 40px;
+  }
+  .poli-index p {
+    font-size: 16px;
+  }
+  .fondo2-index {
+    height: 540px;
+  }
+  .ubicacion-index h3 {
+    font-size: 25px;
+  }
+  .ubicacion-index h4 {
+    font-size: 20px;
+  }
+  /*Pie de pagina*/
+  footer {
+    height: 20px;
+  }
+  .mini-servicios div p {
+    font-size: 7px;
+  }
+  .mini-servicios h3 {
+    font-size: 26px;
+  }
+  .mini-servicios {
+    padding-left: 20px;
+  }
+  /* Cambios en Autopartes.html*/
+  .img-fondo-aut img {
+    width: 390px;
+    height: 490px;
+  }
+  .titulo-autorpartes {
+    font-size: 40px;
+  }
+  .sub-autopartes {
+    font-size: 20px;
+  }
+}
+@media (max-width: 510px) {
+  /*Barra de navegacion*/
+  .nav li a {
+    margin-left: 10px;
+  }
+  .Ccristales {
+    height: 550px;
+  }
+  .fondo2-index {
+    height: 470px;
+  }
+  /*Servicios.html*/
+  .fondo-ini-servicio img {
+    height: 300px;
+    width: 100%;
+  }
+  .grabados {
+    padding-top: 70px;
+  }
+}
+@media (max-width: 488px) {
+  .boton-compra {
+    padding: 5px 10px;
+    width: 80%;
+  }
+  .productos img {
+    padding-left: 1px;
+  }
+}
+@media (max-width: 467px) {
+  /*Barra de navegacion*/
+  header {
+    display: flex;
+  }
+  header img {
+    width: 30px;
+    height: 40px;
+    align-items: center;
+  }
+  .nav li a {
+    font-size: 7px;
+    margin-left: 7px;
+  }
+  /*index*/
+  .productos p {
+    font-size: 10px;
+  }
+  .fondo2-index {
+    height: 440px;
+  }
+  .ubicacion-index h3 {
+    font-size: 20px;
+  }
+  .ubicacion-index h4 {
+    font-size: 12px;
+  }
+  /*servicio.html*/
+  .titulo-servicios h1 {
+    font-size: 25px;
+  }
+  .titulo-servicios h3 {
+    font-size: 12px;
+  }
+  .grabados h2 {
+    font-size: 19px;
+  }
+  .grabados h3 {
+    font-size: 12px;
+  }
+  .mantenimiento div h2 {
+    font-size: 19px;
+  }
+  .mantenimiento div h3 {
+    font-size: 12px;
+  }
+  .texto-pola h2 {
+    font-size: 19px;
+  }
+  .texto-pola h3 {
+    font-size: 12px;
+  }
+  .texto-pola p {
+    font-size: 10px;
+  }
+  .polarizado img {
+    width: 100px;
+    height: 60px;
+  }
+  /*Autoparte.html---------------------------------------*/
+  .img-fondo-aut img {
+    width: 300px;
+    height: 400px;
+  }
+  .titulo-autorpartes {
+    font-size: 36px;
+    padding-top: 50px;
+  }
+  .sub-autopartes {
+    font-size: 16px;
+  }
+  /*Optica*/
+  .subtitulo-optica {
+    font-size: 32px;
+  }
+  .catalogo-optica div {
+    width: 70px;
+    height: 110px;
+    padding: 30px 30px;
+  }
+  /*Autopartes*/
+  .subtitulo-autopartes {
+    font-size: 32px;
+  }
+  .catalogo-autopartes div {
+    width: 70px;
+    height: 110px;
+    padding: 30px 30px;
+  }
+  /*Guardaplast*/
+  .subtitulo-guardaplast {
+    font-size: 32px;
+  }
+  .catalogo-guardaplast div {
+    width: 70px;
+    height: 110px;
+    padding: 30px 30px;
+  }
+  /*Paragolpe*/
+  .subtitulo-paragolpe {
+    font-size: 32px;
+  }
+  .catalogo-paragolpes div {
+    width: 70px;
+    height: 110px;
+    padding: 30px 30px;
+  }
+  .boton-compra {
+    font-size: 10px;
+  }
+}
+@media (max-width: 439px) {
+  .Ccristales {
+    height: 500px;
+  }
+  .Ccristales h1 {
+    font-size: 50px;
+  }
+  .calcula-envio img {
+    width: 30px;
+    height: 30px;
+  }
+  .fondo2-index {
+    height: 400px;
+  }
+  .poli-index h2 {
+    font-size: 30px;
+  }
+  .poli-index p {
+    font-size: 12px;
+  }
+  iframe {
+    width: 200px;
+    height: 200px;
+  }
+  .boton-compra {
+    font-size: 8px;
+  }
+}
+@media (max-width: 393px) {
+  /*Barra de navegacion*/
+  .nav li a {
+    font-size: 5px;
+    margin-left: 5px;
+  }
+  .contacto-nav {
+    font-size: 4px;
+    line-height: 1px;
+  }
+  .contacto-nav div img {
+    width: 7px;
+    height: 7px;
+  }
+  .Ccristales {
+    height: 450px;
+  }
+  .fondo2-index {
+    height: 370px;
+  }
+}
+@media (max-width: 393px) {
+  .mini-servicios div p {
+    font-size: 6px;
+  }
+  .mini-servicios div h3 {
+    font-size: 12px;
+  }
+  .Ccristales {
+    height: 400px;
+  }
+  .fondo2-index {
+    height: 350px;
+  }
+  /*Autopartes.html----------------------------*/
+  /*Optica*/
+  .subtitulo-optica {
+    font-size: 32px;
+  }
+  .catalogo-optica div {
+    width: 50px;
+    height: 90px;
+    padding: 30px 30px;
+  }
+  /*Autopartes*/
+  .subtitulo-autopartes {
+    font-size: 32px;
+  }
+  .catalogo-autopartes div {
+    width: 50px;
+    height: 90px;
+    padding: 30px 30px;
+  }
+  /*Guardaplast*/
+  .subtitulo-guardaplast {
+    font-size: 32px;
+  }
+  .catalogo-guardaplast div {
+    width: 50px;
+    height: 90px;
+    padding: 30px 30px;
+  }
+  /*Paragolpe*/
+  .subtitulo-paragolpe {
+    font-size: 32px;
+  }
+  .catalogo-paragolpes div {
+    width: 50px;
+    height: 90px;
+    padding: 30px 30px;
+  }
+  .boton-compra {
+    font-size: 5px;
+  }
 }
 
-@media (max-width:813px){
-    /*barra de navegacion*/
-    .nav li a{
-        margin-left: 30px;
-    }
-}
-
-@media (max-width:773px){
-    /*Imagens de productos INDEX*/
-    .productos img{
-        width: 150px;
-        height: 250px;
-        padding-left:30px ;
-    }
-}
-
-@media (max-width:742px){
-    /*mini serivicos INDEX*/
-    .mini-servicios div p{
-        font-size: 9px;
-    }
-    .mini-servicios div h3{
-        font-size: 20px;
-    }
-}
-
-@media (max-width:723px){
-    /*Barra de navegacion*/
-    header img{
-        width: 50px;
-        height: 40px;
-    }
-    .nav li a{
-        font-size:12px ;
-    }
-    .contacto-nav{
-        font-size: 5px;
-        line-height: 2px;
-    }
-}
-
-@media (max-width:696px){
-    /*mini serivicos INDEX*/
-    .mini-servicios{
-        padding-left: 35px;
-    }
-    /*Camioncito de HTML*/
-    .calcula-envio img{
-        margin-left:90%;
-    }
-    /*Boton de compra de index*/
-    .boton-compra{
-        padding:10px 15px;
-        width: 150px;
-    }
-
-    /*Servicio.html*/
-    .fondo-ini-servicio img{
-        height:400px; 
-    }
-    .mantenimiento img{
-        width:25% ;
-        height: 25%;
-    }
-    .polarizado img{
-        width: 190px;
-        height: 140px;
-    }
-}
-
-@media (max-width:646px){
-    /*H1 index*/
-    .Ccristales{
-        font-size:60px;
-    }
-    /*mini serivicos INDEX*/
-    .mini-servicios div p{
-        font-size:8px;
-    }
-    .mini-servicios div h3{
-        font-size:16px;
-    }
-}
-
-@media (max-width:633px){
-    /*Barra de navegacion*/
-    .contacto-nav div img{
-        width:10px;
-        height: 10px;
-    }
-    .nav li a{
-        font-size: 9px;
-        margin-left: 20px;
-    }
-    /*servico.html*/
-    .titulo-servicios h1{
-        font-size:35px ;
-    }
-    .titulo-servicios h3{
-        font-size: 14px;
-    }   
-    .boton-info button{
-        padding: 10px 10px;
-        width: 150px;
-    }
-    .grabados h2{
-        font-size: 25px;
-    }
-    .grabados h3{
-        font-size: 14px;
-    }
-    .mantenimiento div h2{
-        font-size:25px ;
-    }
-    .mantenimiento div h3{
-        font-size: 14px;
-    }
-    .texto-pola h2{
-        font-size: 25px;
-    }
-    .texto-pola h3{
-        font-size: 14px;
-    }
-    .texto-pola p{
-        font-size: 12px;
-    }
-    .polarizado img{
-        width: 140px;
-        height: 100px;
-    }
-}
-
-@media (max-width:608px){
-    /*img Productos index*/
-    .productos img{
-        width: 100px;
-        height: 150px;
-    }
-    /*Texto (UBICACION)*/
-    .ubicacion-index h3{
-        font-size: 35px;
-    }
-    .ubicacion-index h4{
-        font-size: 25px;
-    }
-}
-
-@media (max-width:571px){
-    /*Pie de pagina*/
-    footer{
-        height: 20px;
-    }
-    .mini-servicios div p{
-        font-size: 7px;
-    }
-    .mini-servicios h3{
-        font-size: 26px;
-    }
-    .mini-servicios{
-        padding-left: 20px;
-    }
-}
-
-@media (max-width:510px){
-    /*Barra de navegacion*/
-        .nav li a{
-        margin-left: 10px;
-    }
-    /*Servicios.html*/
-    .fondo-ini-servicio  img{
-        height: 300px;
-        width:100% ;
-    }
-    .grabados{
-        padding-top: 70px;
-    }
-}
-
-@media (max-width:467px){
-    /*Barra de navegacion*/
-    header{
-        display: flex;
-    }
-    header img{
-        width: 30px;
-        height: 40px;
-        align-items: center;
-    }
-    .nav li a{
-        font-size: 7px;
-        margin-left: 7px;
-    }
-    /*servicio.html*/
-    .titulo-servicios h1{
-        font-size: 25px;
-    }
-    .titulo-servicios h3{
-        font-size: 12px;
-    }
-    .grabados h2{
-        font-size: 19px;
-    }
-    .grabados h3{
-        font-size: 12px;
-    }
-    .mantenimiento div h2{
-        font-size: 19px;
-    }
-    .mantenimiento div h3{
-        font-size: 12px;
-    }
-    .texto-pola h2{
-        font-size: 19px;
-    }
-    .texto-pola h3{
-        font-size: 12px;
-    }
-    .texto-pola p {
-        font-size: 10px;
-    }
-    .polarizado img{
-        width: 100px;
-        height: 60px;
-    }
-}
-
-@media (max-width:393px){
-    /*Barra de navegacion*/
-        .nav li a{
-            font-size: 5px;
-            margin-left: 5px;
-        }
-        .contacto-nav{
-            font-size: 4px;
-            line-height: 1px;
-        }
-        .contacto-nav div img{
-            width: 7px;
-            height: 7px;
-        }
-}
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,134 @@
+/*SERVICIOS*/
+.fondo-ini-servicio img{
+    height: 650px;
+}
+.fondo-ini-servicio{display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 120px;
+}
+.titulo-servicios{display: flex;
+    flex-direction: column;
+    color: white;
+    font-family:"Orbitron", sans-serif;
+    text-align: left;
+}
+.titulo-servicios h1{
+    font-size: 75px;
+    line-height: 20px;
+}
+
+
+.titulo-servicios h3{
+    font-size: 32px;
+    line-height: 10px;
+}
+
+/*Boton de servicios*/
+.boton-info{
+    text-align: center;
+}
+.boton-info button{
+    color: white;
+    font-family:"Orbitron", sans-serif;
+    background-color: #481752;
+    border: none;
+    border-radius: 56px;
+    padding: 20px 20px;
+    width: 300px;
+}
+/*linea divisora*/
+.linea-violeta{color: #481752;
+    background-color: #481752;
+    width: 50%;
+    height: 5px;
+    border-radius: 5px;
+    margin-left: 20%;
+    margin-top: 150px;
+}
+
+
+/*grabados*/
+.grabados{
+    display: flex;
+    flex-direction: column;
+    color:white;
+    font-family:"Orbitron", sans-serif;
+    text-align:left;
+    font-size: 24px;
+}
+.grabados h2{
+    font-size: 48px;
+
+}
+
+.grabados h3{
+    font-size: 32px;
+}
+
+/*texto de mantenimiento*/
+.mantenimiento{display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color:white;
+    font-family:"Orbitron", sans-serif;
+    padding-top: 5%;
+}
+
+.mantenimiento h2{
+    font-size: 48px;
+}
+.mantenimiento h3{
+    font-size: 32px;
+    line-height: 10px;
+}
+.mantenimiento img{
+    margin-top: 5%;
+    width: 30%;
+    height: 30%;
+    border-radius: 30%;
+    margin-right: 20px;
+}
+
+/*polarizado*/
+.polarizado{display: flex;
+    flex-direction: row;
+    color:white;
+    font-family:"Orbitron", sans-serif;
+    padding-top: 5%;
+    justify-content: space-between;
+}
+
+.texto-pola{
+    width: 60%;
+}
+.polarizado img{width:400px;
+    height: 300px;
+    border-radius: 30%;
+    margin-top: 100px;
+    margin-right: 20px;
+}
+
+.polarizado h2{font-size: 48px;
+}
+
+.polarizado h3{font-size: 32px;
+}
+
+.polarizado p{
+    font-size: 20px;
+}
+
+
+
+
+
+/*tipos de lamina de palorizados (explicacion)*/
+.tipo-de-polarizado{
+    font-size: 24px;
+}
+.img-polarizado{
+    width: 360px;
+    height: 340px;
+}

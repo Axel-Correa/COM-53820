@@ -1,0 +1,143 @@
+.Ccristales{
+    color: rgba(255, 255, 255, 0.5);
+    font-family:"Orbitron", sans-serif;
+    font-size: 80px;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    height: 90vh;
+    width: 100%;
+}
+
+/*fondo principal index*/
+.Ccristales h1{background-image: url("../assest/imagenes/Bmw-inico.png");
+    background-position: center;
+    background-size: cover;    
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+    padding-top: 35%;
+}
+
+.mini-servicios{ width: 90%;
+    color: white;
+    font-family:"Orbitron", sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    line-height: 10px;
+    font-size: 16px;
+    padding-left: 50px;
+}
+.mini-servicios h3{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+
+/*linea divisora index*/
+.linea-violeta-index{
+    color: #481752;
+    background-color: #481752;
+    width: 50%;
+    height: 5px;
+    border-radius: 5px;
+    margin-left: 20%;
+    margin-top: 100px;
+}
+
+.catalogo{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+}
+.productos{display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: "Encode Sans SC", sans-serif;
+    text-align: center;
+}
+.productos img{
+    width:294px ;
+    height: 396px;
+}
+.boton-compra{color: white;
+    font-family:"Orbitron", sans-serif;
+    background-color: #481752;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 56px;
+}
+
+.calcula-envio{color: white;
+    background-color:#5f5a5a;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.calcula-envio img{
+    margin-left:93%;
+    width: 50px;
+    height: 50px;
+}
+
+.ubicacion-index{background-color: #5C5A55;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.ubicacion-index h3{
+    text-align: center;
+    color:white;
+    font-family:"Orbitron", sans-serif;
+    text-align:left;
+    font-size: 60px;
+}
+.ubicacion-index h4{
+    font-size: 50px;
+    color: white;
+    font-family:"Orbitron", sans-serif;
+    text-align: right;
+}
+
+
+/*segundo fondo del index*/
+.fondo2-index {
+    height: 1200px;
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+}
+.poli-index {
+    background-image: url("../assest/imagenes/Bmw-2inicio.png");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+.fondo2-index div h2{
+    padding-left: 20px;
+}
+.poli-index h2{
+    color:white;
+    font-family:"Orbitron", sans-serif;
+    text-align:left;
+    font-size: 60px;
+    width: 80%;
+}
+.poli-index p{
+    display: flex;
+    flex-direction: column;
+    color:white;
+    font-family:"Orbitron", sans-serif;
+    text-align:left;
+    font-size: 24px;
+    padding-left: 40px;
+    width: 80%;
+}

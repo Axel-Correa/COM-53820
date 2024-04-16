@@ -1,0 +1,136 @@
+/*Pagina Autopartes*/
+
+.linea-violeta-autopartes{
+    color: #481752;
+    background-color: #481752;
+    width: 50%;
+    height: 5px;
+    border-radius: 5px;
+    margin-left: 20%;
+    margin-top: 250px;
+}
+
+.titulo-autorpartes{
+    color:white;
+    font-family:"Orbitron", sans-serif;
+    font-size: 80px;
+    text-align: right;
+    padding-top: 100px;
+}
+
+.sub-autopartes{
+    color:white;
+    font-family:"Orbitron", sans-serif;
+    font-size: 36px;
+    text-align: right;
+    line-height: 5px;
+}
+
+.subtitulo-optica{
+    color:white;
+    font-family:"Orbitron", sans-serif;
+    text-align:left;
+    font-size: 70px;
+}
+.catalogo-optica{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.catalogo-optica div{
+    width: 300px;
+}
+.catalogo-optica div img{
+    width: 100%;
+    height: 100%;
+    border-radius: 59px;
+}
+
+.subtitulo-autopartes{
+    color:white;
+    font-family:"Orbitron", sans-serif;
+    text-align:left;
+    font-size: 70px;
+    /*color: map-get($map: $fuentes-autopartes, $key: color-letra) ;
+    font-family: map-get($map: $fuentes-autopartes, $key:tipografia );
+    text-align:map-get($map: $fuentes-autopartes, $key:alineacion );
+    font-size: 70px;*/
+}
+
+
+.catalogo-autopartes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.catalogo-autopartes div{
+    width: 300px;
+}
+.catalogo-autopartes div img{
+    width: 100%;
+    height: 100%;
+    border-radius: 59px;
+}
+.subtitulo-guardaplast{
+    color:white;
+    font-family:"Orbitron", sans-serif;
+    text-align:left;
+    font-size: 70px;
+}
+
+
+.catalogo-guardaplast{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.catalogo-guardaplast div{
+    width: 300px;
+}
+
+.catalogo-guardaplast div img{
+    width: 100%;
+    height: 100%;
+    border-radius: 59px;
+}
+
+.subtitulo-paragolpe{
+    color:white;
+    font-family:"Orbitron", sans-serif;
+    text-align:left;
+    font-size: 70px;
+}
+
+.catalogo-paragolpes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.catalogo-paragolpes div{
+    width: 300px;
+}
+.catalogo-paragolpes div img{
+    width: 100%;
+    height: 100%;
+    border-radius: 59px;
+}
+.boton-compra{color: white;
+    font-family:"Orbitron", sans-serif;
+    background-color: #481752;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 56px;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    margin-top: 100px;
+}
+
+/*fin de Autopartes.html*/
