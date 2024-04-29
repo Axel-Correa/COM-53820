@@ -1,6 +1,4 @@
-*{
-    border: #481752 solid 1px
-}
+
 
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
 /*font-family:"Orbitron", sans-serif;*/
@@ -55,16 +53,9 @@
 .sub-h2-raight h3{
     font-size: 32px;
 }
-
-
-
-
-
-
-
+/*MediaQ-------------------------------------------------------*/
 @media (max-width:1245px){
     /*Barra de navegacion*/
-    /*index*/
     header {
         width: 100%;
     }
@@ -75,7 +66,7 @@
         font-size: 7px;
         margin-left: 27px;
     }
-
+        /*index-------------------------------------------------*/
     .Ccristales{
         width: 100%;
         height: 1300px;
@@ -101,6 +92,17 @@
     }
     .ubicacion-index div h4{
         padding-right: 15px;
+    }
+    /*Autopartes.HTML------------------------------------------*/
+    .img-fondo-aut div img{
+        width: 500px;
+        height: 600px;
+    }
+    .titulo-autorpartes{
+        font-size: 60px;
+    }
+    .sub-autopartes{
+        font-size: 24px;
     }
 }
 
@@ -142,11 +144,35 @@
     .fondo2-index{
         height: 1100px;
     }
+    /*Contacto.html-----------------------------------------*/
+    .img-contacto{
+        padding-top: 70px;
+    }
+    .img-contacto img{
+        height: 700px;
+    }
+    .titulo-contacto {
+        font-size: 60px;
+    }
 }
+
 @media (max-width:1075px){
     .fondo2-index{
         height: 1050px;
     }
+    /*Colocacion.html---------------------------------------*/
+    .subtitulo-colocacion{
+        font-size: 15px;
+    }
+    .video-colocacion video{
+        width: 400px;
+        height: 350px;
+    }
+    .img-colocacion img{
+        width: 350px;
+        height:300px ;
+    }
+    /*Fin Colocacion.html-----------------------------------*/
 }
 /* fin segundo fondo index*/
 @media (max-width:1065px){
@@ -171,20 +197,50 @@
     .ubicacion-index h4{
         font-size: 30px;
     }
+    /*Autopartes.HTML-----------------------------------------*/
+    .img-fondo-aut div img{
+        width: 450px;
+        height: 550px;
+    }
+    .titulo-autorpartes{
+        font-size: 54px;
+    }
+    .sub-autopartes{
+        font-size: 20px;
+    }
 }
 /* segundo fondo index*/
 @media (max-width:1013px){
     .fondo2-index{
         height: 1000px;
     }
+    /* fin segundo fondo index*/
+    /*Colocacion.html---------------------------------------*/
+    .titulo-colocacion{
+        font-size: 60px;
+        height: 600px;
+    }
+    .subtitulo-colocacion{
+        font-size: 12px;
+    }
+    .multimedia-colocacion{
+        padding-top: 300px;
+    }
+    /*Fin Colocacion.html-----------------------------------*/
+    /*Contacto.html-----------------------------------------*/
+    .img-contacto{
+        padding-top: 65px;
+    }
+    .img-contacto img{
+        height: 600px;
+    }
 }
-/* fin segundo fondo index*/
     
 
 
 
 @media (max-width:1004px){
-    /*Barra de navegacion*/
+    /*Barra de navegacion------------------------------------------------*/
     header img{
         width: 70px;
         height: 60px;
@@ -198,13 +254,13 @@
         font-size: 6px;
     }
 
-    /*Pie de pagina*/
+    /*Pie de pagina----------------------------------------------------*/
     footer{
         height: 40px;
     }
 
-    /*servicios.html*/
-    .fondo-ini-servicio img{
+    /*servicios.html-----------------------------------------------*/
+    .fondo-ini-servicio div img{
         height: 550px;
     }
     .titulo-servicios h1{
@@ -241,11 +297,11 @@
     .linea-violeta{
         margin-top: 50px;
     }
-    /* Cambios en Autopartes.html
+    /* Cambios en Autopartes.html---------------------------------
 
-    PRODUCTOS*/
+    PRODUCTOS-------------------------*/
 
-    /*Optica*/
+    /*Optica--------------------------*/
     .subtitulo-optica{
         font-size: 60px;
     }
@@ -254,7 +310,7 @@
         height: 300px;
         padding: 30px 30px;
     }
-    /*Autopartes*/
+    /*Autopartes----------------------*/
     .subtitulo-autopartes{
         font-size: 60px;
     }
@@ -263,7 +319,7 @@
         height: 300px;
         padding: 30px 30px;
     }
-    /*Guardaplast*/
+    /*Guardaplast----------------------*/
     .subtitulo-guardaplast{
         font-size: 60px;
     }
@@ -272,7 +328,7 @@
         height: 300px;
         padding: 30px 30px;
     }
-    /*Paragolpe*/
+    /*Paragolpe-----------------------*/
     .subtitulo-paragolpe{
         font-size: 60px;
     }
@@ -281,31 +337,62 @@
         height: 300px;
         padding: 30px 30px;
     }
-    /*Fin de productos*/
+    /*Fin de productos------------------------------------------*/
 }
 
 
-/* segundo fondo index*/
 @media (max-width:972px){
-    /* segundo fondo index*/
+    /* segundo fondo index--------------------------------------*/
     .fondo2-index{
         height: 950px;
     }
-    /*Cambios en Autopartes.html*/
+    /*Cambios en Autopartes.html------------------------------*/
 
 }
 @media (max-width:922px){
     .Ccristales{
-        height: 950px;
+        margin-top: 70px;
+        height: 800px;
     }
     .fondo2-index{
         height: 900px;
     }
+    /* fin segundo fondo index*/
+    /*Autopartes.HTML-----------------------------------------*/
+    .img-fondo-aut div img{
+        width: 400px;
+        height: 500px;
+    }
+    /*Colocacion.html---------------------------------------*/
+    .subtitulo-colocacion{
+        font-size: 10px;
+    }
+    .video-colocacion video{
+        width: 350px;
+        height: 300px;
+    }
+    .img-colocacion img{
+        width: 300px;
+        height:250px ;
+    }
+    .multimedia-colocacion{
+        padding-top: 150px;
+    }
+    /*Contacto.html-----------------------------------------*/
+    .img-contacto{
+        padding-top: 65px;
+    }
+    .img-contacto img{
+        height: 520px;
+    }
+    .titulo-contacto {
+        font-size: 50px;
+    }
 }
-/* fin segundo fondo index*/
+
 
 @media (max-width:876px){
-    /*Index (MINI SERVICIOS)*/
+    /*Index (MINI SERVICIOS)--------------*/
     .mini-servicios div p{
         font-size: 10px;
     }
@@ -313,7 +400,7 @@
         font-size: 34px;
     }
 
-    /*Index (TItulo polarizado)*/
+    /*Index (TItulo polarizado)---------------*/
     .poli-index h2{
         font-size: 50px;
     }
@@ -321,13 +408,15 @@
         font-size: 20px;
     }
 }
-/* segundo fondo index*/
+
 @media (max-width:873px){
+    /* segundo fondo index--------------------*/
     .fondo2-index{
         height: 840px;
     }
+    /* fin segundo fondo index-------------------*/
 }
-/* fin segundo fondo index*/
+
 
 
 @media (max-width:835px){
@@ -338,7 +427,7 @@
     .pie-auropartes img{
         height: 40px;
     }
-    /*servicio.html:section polarizado*/
+    /*servicio.html:section polarizado----------------------*/
     .texto-pola p{
         font-size:15px ;
     }
@@ -346,16 +435,23 @@
     width: 250px;
     height: 200px;
     }
-        /* Cambios en Autopartes.html*/
+    /*Autopartes.html-------------------------*/
+    /*Autopartes.HTML-----------------------------------------*/
+    .img-fondo-aut div img{
+        width: 350px;
+        height: 400px;
+    }
     .titulo-autorpartes{
-        font-size: 60px;
+        font-size: 50px;
     }
     .sub-autopartes{
-        font-size: 30px;
+        font-size: 16px;
     }
-
-    /*PRODUCTOS*/
-    /*Optica*/
+    .linea-violeta-autopartes{
+        margin-top: 150px;
+    }
+    /*PRODUCTOS-------------*/
+    /*Optica----------*/
     .subtitulo-optica{
         font-size: 52px;
     }
@@ -364,7 +460,7 @@
         height: 270px;
         padding: 30px 30px;
     }
-    /*Autopartes*/
+    /*Autopartes-------------------------------*/
     .subtitulo-autopartes{
         font-size: 52px;
     }
@@ -373,7 +469,7 @@
         height: 270px;
         padding: 30px 30px;
     }
-    /*Guardaplast*/
+    /*Guardaplast--------------------------------*/
     .subtitulo-guardaplast{
         font-size: 52px;
     }
@@ -382,7 +478,7 @@
         height: 270px;
         padding: 30px 30px;
     }
-    /*Paragolpe*/
+    /*Paragolpe-----------------------------------*/
     .subtitulo-paragolpe{
         font-size: 52px;
     }
@@ -392,25 +488,52 @@
         padding: 30px 30px;
     }
 }
-/* segundo fondo index*/
+
 @media (max-width:823px){
+    /* segundo fondo index-----------------------------*/
     .fondo2-index{
         height: 800px;
     }
+    /* fin segundo fondo index--------------------------*/
+
+    /*Colocacion.HTML---------------------------------------*/
+    .fondo-colocacion{
+        height: 600px;
+    }
+    .titulo-colocacion{
+        height: 500px;
+    }
+    .multimedia-colocacion{
+        padding-top: 100px;
+    }
 }
-/* fin segundo fondo index*/
+
 
 
 @media (max-width:813px){
-    /*barra de navegacion*/
+    /*barra de navegacion-------------------------------------*/
     .nav li a{
         margin-left: 30px;
     }
+    /*Colocacion.html---------------------------------------*/
+    .subtitulo-colocacion{
+        font-size: 10px;
+    }
+    .video-colocacion video{
+        width: 300px;
+        height: 250px;
+    }
+    .img-colocacion img{
+        width: 250px;
+        height:200px ;
+        margin-top: 30px;
+    }
+    /*Fin Colocacion.html-----------------------------------*/
 }
 /* segundo fondo index*/
 @media (max-width:783px){
     .Ccristales{
-        height: 850px;
+        height: 700px;
     }
     .Ccristales h1{
         font-size: 70px;
@@ -430,13 +553,20 @@
         padding-left:30px ;
     }
 }
-/* segundo fondo index*/
+
 @media (max-width:763px){
+    /* segundo fondo index*/
     .fondo2-index{
         height: 720px;
     }
+    /* fin segundo fondo index*/
+    /*Colocacion.html---------------------------------------*/
+    .fondo-colocacion{
+        height: 550px;
+    }
+    /*FIN Colocacion.html---------------------------------------*/
 }
-/* fin segundo fondo index*/
+
 
 @media (max-width:742px){
     /*mini serivicos INDEX*/
@@ -446,11 +576,29 @@
     .mini-servicios div h3{
         font-size: 20px;
     }
+    /*Colocacion.html---------------------------------------*/
+    .titulo-colocacion{
+        font-size: 50px;
+        height: 500px;
+    }
+    .subtitulo-colocacion{
+        font-size: 9px;
+    }
+    .video-colocacion video{
+        width: 250px;
+        height: 200px;
+    }
+    .img-colocacion img{
+        width: 200px;
+        height:150px ;
+        margin-top: 30px;
+    }
+    /*Fin Colocacion.html-----------------------------------*/
 }
 
 @media (max-width:723px){
     .Ccristales{
-        height:750px ;
+        height:650px ;
     }
     .fondo2-index{
         height: 690px;
@@ -468,23 +616,60 @@
         line-height: 2px;
     }
     /* Cambios en Autopartes.html*/
-    .titulo-autorpartes{
-        font-size: 54px;
-    }
-    .sub-autopartes{
-        font-size: 26px;
-    }
     .boton-compra{
         width: 150px;
     }
+    /*Contacto.html-----------------------------------------*/
+    .nav{
+        padding-top: 0.5%;
+    }
+    .img-contacto{
+        padding-top: 50px;
+    }
+    .img-contacto img{
+        height: 450px;
+    }
+    .titulo-contacto {
+        font-size: 40px;
+    }
+    .subtitulo-contacto h2{
+        font-size: 16px;
+    }
+    .direccion h2{
+        font-size: 20px;
+    }
+    .direccion h3{
+        font-size: 16px;
+    }
+    iframe{
+        width: 250px;
+        height: 250px;
+    }
 }
-/* segundo fondo index*/
+
 @media (max-width:703px){
+    /* segundo fondo index*/
     .fondo2-index{
         height: 690px;
     }
+    /* fin segundo fondo index*/
+    /*Servicio.HTML------------------------------------------*/
+    .fondo-ini-servicio div img {
+        height: 400px;
+    }
+    /*Autopartes.HTML-----------------------------------------*/
+    .img-fondo-aut div img{
+        width: 300px;
+        height: 350px;
+    }
+    .titulo-autorpartes{
+        font-size: 46px;
+    }
+    .sub-autopartes{
+        font-size: 12px;
+    }
 }
-/* fin segundo fondo index*/
+
 
 
 @media (max-width:696px){
@@ -505,7 +690,10 @@
         width: 150px;
     }
 
-    /*Servicio.html*/
+    /*Servicio.html---------------------------------------------*/
+    .fondo-ini-servicio{
+        padding-top: 90px;
+    }
     .fondo-ini-servicio img{
         height:400px; 
     }
@@ -517,6 +705,7 @@
         width: 190px;
         height: 140px;
     }
+    /*Autopartes.HTML-------------------------------------------*/
     /*Optica*/
     .subtitulo-optica{
         font-size: 48px;
@@ -553,12 +742,41 @@
         height: 230px;
         padding: 30px 30px;
     }
+        /*Colocacion.html---------------------------------------*/
+    .fondo-colocacion{
+        height: 500px;
+    }
+    .titulo-colocacion {
+        font-size: 50px;
+        height: 500px;
+    }
+    .subtitulo-colocacion{
+        font-size: 9px;
+    }
+    .multimedia-colocacion{
+        padding-top: 150px;
+    }
+
+    .video-colocacion video{
+        width: 250px;
+        height: 200px;
+    }
+    .img-colocacion img{
+        width:150px;
+        height:150px ;
+        margin-top: 30px;
+        border-radius: 50px;
+    }
+    .subtitulo-colocacion{
+        font-size: 8px;
+    }
+    /*Fin Colocacion.html-----------------------------------*/
 }
 
 @media (max-width:646px){
 
     .Ccristales{
-        height:700px ;
+        height:600px ;
     }
     .Ccristales h1{
         font-size:60px;
@@ -576,7 +794,7 @@
 }
 
 @media (max-width:633px){
-    /*Barra de navegacion*/
+    /*Barra de navegacion---------------------------------------*/
     .contacto-nav div img{
         width:10px;
         height: 10px;
@@ -585,7 +803,7 @@
         font-size: 9px;
         margin-left: 20px;
     }
-    /*servico.html*/
+    /*servico.html----------------------------------------------*/
     .titulo-servicios h1{
         font-size:35px ;
     }
@@ -621,22 +839,32 @@
         width: 140px;
         height: 100px;
     }
-    /* Cambios en Autopartes.html*/
+    /*Autopartes.HTML-----------------------------------------*/
+    .img-fondo-aut div img{
+        width: 270px;
+        height: 320px;
+    }
     .titulo-autorpartes{
-        font-size: 50px;
+        font-size: 42px;
     }
     .sub-autopartes{
-        font-size: 22px;
-        }
-    .img-fondo-aut img{
-        width: 490px;
-        height: 600px;
+        font-size: 12px;
+    }
+    /*Colocacion.html-------------------------------------------*/
+    .fondo-colocacion{
+        margin-top: 50px;
+        height: 450px;
+    }
+    .titulo-colocacion {
+        font-size: 50px;
+        height: 400px;
     }
 }
 
 @media (max-width:608px){
     .Ccristales{
-        height:650px ;
+        margin-top: 50px;
+        height:550px ;
     }
     .fondo2-index{
         height:590px ;
@@ -693,11 +921,38 @@
         padding:10px 15px;
         width: 100px;
     }
+    /*Colocacion.html---------------------------------------*/
+    .titulo-colocacion{
+        font-size: 40px;
+        height: 450px;
+    }
+    .subtitulo-colocacion{
+        font-size: 7px;
+    }
+    .video-colocacion video{
+        width: 200px;
+        height: 150px;
+    }
+    .img-colocacion img{
+        width: 150px;
+        height:150px ;
+        margin-top: 20px;
+    }
+    /*Fin Colocacion.html-----------------------------------*/
+
+    /*Contacto.html-----------------------------------------*/
+    .img-contacto{
+        padding-top: 40px;
+    }
+    .img-contacto img{
+        height: 400px;
+    }
 }
+
 
 @media (max-width:571px){
     .Ccristales{
-        height: 600px;
+        height: 500px;
     }
     .poli-index h2{
         font-size: 40px;
@@ -727,41 +982,138 @@
     .mini-servicios{
         padding-left: 20px;
     }
-    /* Cambios en Autopartes.html*/
-    .img-fondo-aut img{
-        width: 390px;
-        height: 490px;
+    /*Autopartes.HTML-----------------------------------------*/
+    .img-fondo-aut{
+        margin-top: 70px;
+    }
+    .img-fondo-aut div img{
+        width: 220px;
+        height: 270px;
     }
     .titulo-autorpartes{
-        font-size: 40px;
+        font-size: 38px;
     }
     .sub-autopartes{
-        font-size: 20px;
+        font-size: 10px;
     }
-
+    /*Colocacion.html---------------------------------------*/
+    .fondo-colocacion {
+        margin-top: 50px;
+        height: 400px;
+    }
+    .titulo-colocacion {
+        font-size: 40px;
+        height: 350px;
+    }
+    .subtitulo-colocacion{
+        font-size: 6px;
+    }
+    .multimedia-colocacion {
+        padding-top: 70px;
+    }
+    .video-colocacion video{
+        width: 170px;
+        height: 120px;
+    }
+    .img-colocacion img{
+        width: 120px;
+        height:120px ;
+        margin-top: 20px;
+    }
+    /*Fin Colocacion.html--------------------------------------*/
 }
 
+@media (max-width:546px){
+    /*Contacto.html-----------------------------------------*/
+    .nav{
+        padding-top: 0.2%;
+    }
+    .img-contacto{
+        padding-top: 40px;
+    }
+    .img-contacto img{
+        height: 350px;
+    }
+    .titulo-contacto {
+        font-size: 30px;
+    }
+    .subtitulo-contacto h2{
+        font-size: 12px;
+    }
+    .direccion h2{
+        font-size: 16px;
+    }
+    .direccion h3{
+        font-size: 12px;
+    }
+    iframe{
+        width: 200px;
+        height: 200px;
+    }
+}
+
+
 @media (max-width:510px){
-    /*Barra de navegacion*/
+    /*Barra de navegacion--------------------------------------*/
         .nav li a{
         margin-left: 10px;
     }
     .Ccristales{
-        height: 550px;
+        height: 450px;
+    }
+    .Ccristales h1{
+        padding-top: 120px;
+        font-size: 50px;
     }
     .fondo2-index{
         height: 470px;
     }
-    /*Servicios.html*/
-    .fondo-ini-servicio  img{
+    /*Servicios.html-------------------------------------------*/
+    .fondo-ini-servicio div img{
         height: 300px;
         width:100% ;
     }
     .grabados{
         padding-top: 70px;
     }
+    /*Colocacion.html---------------------------------------*/
+    .fondo-colocacion {
+        margin-top: 50px;
+        height: 300px;
+    }
+    .titulo-colocacion {
+        font-size: 30px;
+        height: 250px;
+    }
 }
-@media (max-width:488px){
+
+@media (max-width:508px){
+    /*Colocacion.html---------------------------------------*/
+    .titulo-colocacion {
+        font-size: 30px;
+        height: 250px;
+    }
+    /*Autopartes.HTML----------------------------------------*/
+    .img-fondo-aut{
+        margin-top: 70px;
+    }
+    .img-fondo-aut div img{
+        width: 170px;
+        height: 220px;
+    }
+    .titulo-autorpartes{
+        font-size: 34px;
+    }
+    .linea-violeta-autopartes {
+        margin-top: 80px;
+    }
+}
+
+@media (max-width:488px){    
+    .nav{
+        padding-top: 0%;
+        margin-top:5% ;
+    }
     .boton-compra{
         padding: 5px 10px;
         width: 80%;
@@ -769,9 +1121,34 @@
     .productos img{
         padding-left: 1px;
     }
+    /*Colocacion.html---------------------------------------*/
+    .fondo-colocacion {
+        margin-top: 50px;
+        height: 200px;
+        width: 100%;
+        margin-right: 40px;
+    }
+    .titulo-colocacion {
+        font-size: 30px;
+        height: 190px;
+    }
+    .img-colocacion img {
+        width: 120px;
+        height: 120px;
+        margin-left: 40px;
+    }
+    /*Contacto.html-----------------------------------------*/
+
+    .img-contacto{
+        padding-top: 37px;
+    }
+    .img-contacto img{
+        height: 300px;
+    }
+
 }
 @media (max-width:467px){
-    /*Barra de navegacion*/
+    /*Barra de navegacion-----------------------------*/
     header{
         display: flex;
     }
@@ -784,7 +1161,10 @@
         font-size: 7px;
         margin-left: 7px;
     }
-    /*index*/
+    /*index-------------------------------------------*/
+    .Ccristales{
+        height: 400px;
+    }
     .productos p{
         font-size:10px ;
     }
@@ -797,7 +1177,7 @@
     .ubicacion-index h4{
         font-size: 12px;
     }
-    /*servicio.html*/
+    /*servicio.html-------------------------------------*/
     .titulo-servicios h1{
         font-size: 25px;
     }
@@ -830,17 +1210,6 @@
         height: 60px;
     }
         /*Autoparte.html---------------------------------------*/
-    .img-fondo-aut img{
-        width: 300px;
-        height: 400px;
-    }
-    .titulo-autorpartes{
-        font-size:36px;
-        padding-top: 50px;
-    }
-    .sub-autopartes{
-    font-size: 16px;
-    }
     /*Optica*/
     .subtitulo-optica{
         font-size: 32px;
@@ -880,14 +1249,19 @@
     .boton-compra{
         font-size: 10px;
     }
+    /*Colocacion.html-------------------------------------------*/
+    .subtitulo-colocacion {
+        font-size: 5px;
+    }
 }
 
 @media (max-width:439px){
     .Ccristales{
-        height: 500px;
+        height: 350px;
     }
     .Ccristales h1{
-        font-size: 50px;
+        font-size: 40px;
+        padding-top: 100px;
     }
     .calcula-envio img{
         width: 30px;
@@ -908,6 +1282,49 @@
     }
     .boton-compra{
         font-size: 8px;
+    }    
+    /*Autopartes.HTML----------------------------------------*/
+    .img-fondo-aut{
+        margin-top: 50px;
+    }
+    .img-fondo-aut div img{
+        width: 120px;
+        height: 170px;
+    }
+    .titulo-autorpartes{
+        font-size: 30px;
+    }
+    .linea-violeta-autopartes {
+        margin-top: 80px;
+    }
+    /*Colocacion.html---------------------------------------*/
+    .img-colocacion img {
+        width: 120px;
+        height: 120px;
+        margin-left: 15px;
+    }
+    /*Contacto.html-----------------------------------------*/
+    .img-contacto{
+        padding-top: 34px;
+    }
+    .img-contacto img{
+        height: 250px;
+    }
+    .titulo-contacto {
+        font-size: 20px;
+    }
+    .subtitulo-contacto h2{
+        font-size: 8px;
+    }
+    .direccion h2{
+        font-size: 12px;
+    }
+    .direccion h3{
+        font-size: 8px;
+    }
+    iframe{
+        width: 150px;
+        height: 150px;
     }
 }
 
@@ -942,15 +1359,18 @@
         font-size: 12px;
     }
     .Ccristales{
-        height: 400px;
+        height: 300px;
+    }
+    .Ccristales h1{
+        padding-top: 80px;
     }
     .fondo2-index{
         height: 350px;
     }
-    /*Autopartes.html----------------------------*/
+
     /*Optica*/
     .subtitulo-optica{
-        font-size: 32px;
+        font-size: 16px;
     }
     .catalogo-optica div{
         width: 50px;
@@ -959,7 +1379,7 @@
     }
     /*Autopartes*/
     .subtitulo-autopartes{
-        font-size: 32px;
+        font-size: 16px;
     }
     .catalogo-autopartes div{
         width: 50px;
@@ -968,7 +1388,7 @@
     }
     /*Guardaplast*/
     .subtitulo-guardaplast{
-        font-size: 32px;
+        font-size: 16px;
     }
     .catalogo-guardaplast div{
         width: 50px;
@@ -977,7 +1397,7 @@
     }
     /*Paragolpe*/
     .subtitulo-paragolpe{
-        font-size: 32px;
+        font-size: 16px;
     }
     .catalogo-paragolpes div{
         width: 50px;
@@ -986,5 +1406,55 @@
     }
     .boton-compra{
         font-size: 5px;
+    }
+    /*Servicios.html-------------------------------------------*/
+    .fondo-ini-servicio{
+        padding-top: 70px;
+    }
+    .fondo-ini-servicio div img{
+        height: 200px;
+        width:100% ;
+    }
+    /*Colocacion.html---------------------------------------*/
+    .fondo-colocacion {
+        margin-top: 0px;
+        height: 200px;
+        margin-top: 40px;
+    }
+    .subtitulo-colocacion {
+        font-size: 4px;
+    }
+    .titulo-colocacion {
+        font-size: 30px;
+        height: 170px;
+    }
+    .img-colocacion img {
+        width: 100px;
+        height: 100px;
+        margin-left: 15px;
+    }
+    .video-colocacion video {
+        width: 150px;
+        height: 100px;
+    }
+}
+
+@media (max-width:353px){
+    /*Autopartes.HTML----------------------------------------*/
+    .img-fondo-aut{
+        margin-top: 40px;
+    }
+    .img-fondo-aut div img{
+        width: 120px;
+        height: 170px;
+    }
+    .titulo-autorpartes{
+        font-size: 20px;
+    }
+    .sub-autopartes{
+        font-size: 9px;
+    }
+    .linea-violeta-autopartes {
+        margin-top: 40px;
     }
 }

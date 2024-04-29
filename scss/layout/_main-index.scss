@@ -10,12 +10,14 @@
 }
 
 /*fondo principal index*/
-.Ccristales h1{background-image: url("../assest/imagenes/Bmw-inico.png");
+.Ccristales{
+    background-image: url("../assest/imagenes/Bmw-inico.png");
     background-position: center;
     background-size: cover;    
     background-repeat: no-repeat;
+}
+.Ccristales h1{
     width: 100%;
-    height: 100vh;
     align-items: center;
     text-align: center;
     padding-top: 35%;
